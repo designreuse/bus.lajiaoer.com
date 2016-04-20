@@ -1,0 +1,1 @@
+include 'com.demo.model', 'com.demo.utils', 'com.demo.job', 'com.demo.dao', 'com.demo.rest', 'com.demo.rpc', 'com.demo.service', 'com.demo.webapp', 'com.demo.core', 'com.demo.captcha'

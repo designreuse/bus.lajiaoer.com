@@ -1,0 +1,835 @@
+2016-03-17 15:01:59 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-17 15:01:59 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-17 15:01:59 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-17 15:01:59 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-17 15:01:59 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-17 15:01:59 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-17 15:01:59 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-17 15:01:59 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-17 15:01:59 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-17 15:01:59 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-17 15:01:59 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-17 15:01:59 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-17 15:01:59 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-17 15:01:59 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-17 15:01:59 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-17 15:01:59 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-17 15:02:00 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-17 15:02:03 [com.demo.job.city.CityToRedisJob:39] - 执行存入完成
+2016-03-17 15:02:03 [com.demo.job.listener.ServerStartListener:25] - 服务器启动，执行city to redis job成功
+2016-03-17 15:02:03 [com.demo.web.filter.CharacterEncodingFilter:70] - 初始化字符集过滤
+2016-03-17 15:03:05 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:03:05 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:03:05 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:03:05 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:03:05 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:03:05 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:03:06 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 15:03:06 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 15:03:06 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 15:03:06 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 15:03:07 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:03:07 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:03:07 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:03:35 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 15:03:35 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 15:03:39 [com.demo.web.filter.CharacterEncodingFilter:41] - 销毁字符集过滤
+2016-03-17 15:03:39 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-17 15:03:39 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-17 15:03:39 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-17 15:03:39 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-17 15:04:11 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-17 15:04:11 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-17 15:04:11 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-17 15:04:11 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-17 15:04:11 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-17 15:04:11 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-17 15:04:11 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-17 15:04:11 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-17 15:04:11 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-17 15:04:11 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-17 15:04:11 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-17 15:04:11 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-17 15:04:11 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-17 15:04:11 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-17 15:04:11 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-17 15:04:11 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-17 15:04:11 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-17 15:04:12 [com.demo.job.city.CityToRedisJob:39] - 执行存入完成
+2016-03-17 15:04:12 [com.demo.job.listener.ServerStartListener:25] - 服务器启动，执行city to redis job成功
+2016-03-17 15:04:12 [com.demo.web.filter.CharacterEncodingFilter:70] - 初始化字符集过滤
+2016-03-17 15:04:59 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:04:59 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:04:59 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:04:59 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:04:59 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:04:59 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:04:59 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 15:04:59 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 15:04:59 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 15:04:59 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 15:05:00 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:05:00 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:05:00 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:05:04 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 15:05:05 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 15:09:05 [com.demo.web.filter.CharacterEncodingFilter:41] - 销毁字符集过滤
+2016-03-17 15:09:05 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-17 15:09:05 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-17 15:09:05 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-17 15:09:05 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-17 15:09:06 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-17 15:09:06 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-17 15:09:06 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-17 15:09:06 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-17 15:09:06 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-17 15:09:06 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-17 15:09:06 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-17 15:09:06 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-17 15:09:06 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-17 15:09:06 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-17 15:09:06 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-17 15:09:06 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-17 15:09:06 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-17 15:09:06 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-17 15:09:06 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-17 15:09:06 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-17 15:09:07 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-17 15:09:07 [com.demo.job.city.CityToRedisJob:39] - 执行存入完成
+2016-03-17 15:09:07 [com.demo.job.listener.ServerStartListener:25] - 服务器启动，执行city to redis job成功
+2016-03-17 15:09:07 [com.demo.web.filter.CharacterEncodingFilter:70] - 初始化字符集过滤
+2016-03-17 15:10:43 [com.demo.web.filter.CharacterEncodingFilter:41] - 销毁字符集过滤
+2016-03-17 15:10:43 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-17 15:10:43 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-17 15:10:43 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-17 15:10:43 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-17 15:10:44 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-17 15:10:44 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-17 15:10:44 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-17 15:10:44 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-17 15:10:44 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-17 15:10:44 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-17 15:10:44 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-17 15:10:44 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-17 15:10:44 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-17 15:10:45 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-17 15:10:45 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-17 15:10:45 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-17 15:10:45 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-17 15:10:45 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-17 15:10:45 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-17 15:10:45 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-17 15:10:45 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-17 15:10:45 [com.demo.job.city.CityToRedisJob:39] - 执行存入完成
+2016-03-17 15:10:45 [com.demo.job.listener.ServerStartListener:25] - 服务器启动，执行city to redis job成功
+2016-03-17 15:10:45 [com.demo.web.filter.CharacterEncodingFilter:70] - 初始化字符集过滤
+2016-03-17 15:10:58 [com.demo.web.filter.CharacterEncodingFilter:41] - 销毁字符集过滤
+2016-03-17 15:10:58 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-17 15:10:58 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-17 15:10:58 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-17 15:10:58 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-17 15:10:59 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-17 15:10:59 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-17 15:10:59 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-17 15:10:59 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-17 15:10:59 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-17 15:10:59 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-17 15:10:59 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-17 15:10:59 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-17 15:10:59 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-17 15:10:59 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-17 15:10:59 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-17 15:10:59 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-17 15:10:59 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-17 15:10:59 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-17 15:10:59 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-17 15:10:59 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-17 15:11:00 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-17 15:11:01 [com.demo.job.city.CityToRedisJob:39] - 执行存入完成
+2016-03-17 15:11:01 [com.demo.job.listener.ServerStartListener:25] - 服务器启动，执行city to redis job成功
+2016-03-17 15:11:01 [com.demo.web.filter.CharacterEncodingFilter:70] - 初始化字符集过滤
+2016-03-17 15:11:02 [com.demo.web.filter.CharacterEncodingFilter:41] - 销毁字符集过滤
+2016-03-17 15:11:02 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-17 15:11:02 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-17 15:11:02 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-17 15:11:02 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-17 15:11:03 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-17 15:11:03 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-17 15:11:03 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-17 15:11:03 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-17 15:11:03 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-17 15:11:03 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-17 15:11:03 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-17 15:11:03 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-17 15:11:03 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-17 15:11:03 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-17 15:11:03 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-17 15:11:03 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-17 15:11:03 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-17 15:11:03 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-17 15:11:03 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-17 15:11:03 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-17 15:11:03 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-17 15:11:04 [com.demo.job.city.CityToRedisJob:39] - 执行存入完成
+2016-03-17 15:11:04 [com.demo.job.listener.ServerStartListener:25] - 服务器启动，执行city to redis job成功
+2016-03-17 15:11:04 [com.demo.web.filter.CharacterEncodingFilter:70] - 初始化字符集过滤
+2016-03-17 15:11:36 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:11:36 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:11:36 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:11:36 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:11:36 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:11:36 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:11:37 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 15:11:37 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 15:11:37 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 15:11:37 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 15:11:37 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 15:11:37 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 15:11:37 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:11:37 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:11:37 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:15:06 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:15:06 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:15:06 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:15:06 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:15:06 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:15:06 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:15:06 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 15:15:06 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 15:15:06 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 15:15:06 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 15:15:06 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:15:06 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:15:06 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:15:07 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 15:15:07 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 15:15:26 [com.demo.web.filter.CharacterEncodingFilter:41] - 销毁字符集过滤
+2016-03-17 15:15:26 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-17 15:15:26 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-17 15:15:26 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-17 15:15:26 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-17 15:15:57 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-17 15:15:57 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-17 15:15:57 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-17 15:15:57 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-17 15:15:57 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-17 15:15:57 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-17 15:15:57 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-17 15:15:57 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-17 15:15:57 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-17 15:15:57 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-17 15:15:57 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-17 15:15:57 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-17 15:15:57 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-17 15:15:57 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-17 15:15:57 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-17 15:15:57 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-17 15:15:58 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-17 15:15:59 [com.demo.job.city.CityToRedisJob:39] - 执行存入完成
+2016-03-17 15:15:59 [com.demo.job.listener.ServerStartListener:25] - 服务器启动，执行city to redis job成功
+2016-03-17 15:15:59 [com.demo.web.filter.CharacterEncodingFilter:70] - 初始化字符集过滤
+2016-03-17 15:19:51 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:19:51 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:19:51 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:19:51 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:19:51 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:19:51 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:19:52 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 15:19:52 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 15:19:52 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 15:19:52 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 15:19:52 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 15:19:52 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 15:19:52 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:19:52 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:19:52 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:26:14 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-17 15:26:14 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-17 15:26:14 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-17 15:26:14 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-17 15:26:14 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-17 15:26:14 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-17 15:26:14 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-17 15:26:14 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-17 15:26:14 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-17 15:26:14 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-17 15:26:15 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-17 15:26:15 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-17 15:26:15 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-17 15:26:15 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-17 15:26:15 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-17 15:26:15 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-17 15:26:15 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-17 15:26:18 [com.demo.job.city.CityToRedisJob:39] - 执行存入完成
+2016-03-17 15:26:18 [com.demo.job.listener.ServerStartListener:25] - 服务器启动，执行city to redis job成功
+2016-03-17 15:26:18 [com.demo.web.filter.CharacterEncodingFilter:70] - 初始化字符集过滤
+2016-03-17 15:35:47 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:35:47 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:35:47 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:35:47 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:35:47 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:35:47 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:35:48 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 15:35:48 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 15:35:48 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 15:35:48 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 15:35:49 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 15:35:49 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 15:35:49 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:35:49 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:35:49 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:36:51 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:36:51 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:36:51 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:36:51 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:36:51 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:36:51 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:36:51 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 15:36:51 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 15:36:51 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 15:36:51 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 15:36:51 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:36:51 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:36:51 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:36:51 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 15:36:51 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 15:39:37 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:39:37 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:39:37 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:39:37 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:39:37 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:39:37 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:39:37 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 15:39:37 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 15:39:37 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 15:39:37 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 15:39:37 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 15:39:37 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 15:39:38 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:39:38 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:39:38 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:39:49 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:39:49 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:39:49 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:39:49 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:39:49 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:39:49 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:39:49 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 15:39:49 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 15:39:49 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 15:39:49 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 15:39:49 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:39:49 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:39:49 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:39:49 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 15:39:49 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 15:39:52 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:39:52 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:39:52 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:39:52 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:39:52 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:39:52 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:39:52 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 15:39:52 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 15:39:52 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 15:39:52 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 15:39:52 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 15:39:52 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 15:39:53 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:39:53 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:39:53 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:41:35 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:41:35 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:41:35 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:41:35 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:41:35 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:41:35 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:41:36 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 15:41:36 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 15:41:36 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 15:41:36 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 15:41:36 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:41:36 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:41:36 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:41:36 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 15:41:36 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 15:41:38 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:41:38 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:41:38 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:41:38 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:41:38 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:41:38 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:41:38 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 15:41:38 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 15:41:38 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 15:41:38 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 15:41:38 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 15:41:38 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 15:41:39 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:41:39 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:41:39 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:42:02 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:42:02 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:42:02 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:42:02 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:42:02 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:42:02 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:42:02 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 15:42:02 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 15:42:02 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 15:42:02 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 15:42:02 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 15:42:02 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 15:42:03 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:42:03 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:42:03 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:42:05 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:42:05 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:42:05 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:42:05 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:42:05 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:42:05 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:42:05 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 15:42:05 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 15:42:05 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 15:42:05 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 15:42:05 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:42:05 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:42:05 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:42:05 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 15:42:05 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 15:42:10 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:42:10 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:42:10 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:42:10 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:42:10 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:42:10 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:42:10 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 15:42:10 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 15:42:10 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 15:42:10 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 15:42:10 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:42:10 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:42:10 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:42:10 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 15:42:10 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 15:42:15 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:42:15 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:42:15 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:42:15 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:42:15 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:42:15 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:42:15 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 15:42:15 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 15:42:15 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 15:42:15 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 15:42:15 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:42:15 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:42:15 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:42:15 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 15:42:15 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 15:49:47 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:49:47 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:49:47 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:49:47 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:49:47 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:49:47 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:49:48 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 15:49:48 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 15:49:48 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 15:49:48 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 15:49:48 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 15:49:48 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 15:49:48 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:49:48 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:49:48 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:49:54 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:49:54 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:49:54 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:49:54 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:49:54 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:49:54 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:49:55 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 15:49:55 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 15:49:55 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 15:49:55 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 15:49:55 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:49:55 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:49:55 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:49:55 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 15:49:55 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 15:50:12 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:50:12 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:50:12 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:50:12 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:50:12 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:50:12 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:50:12 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 15:50:12 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 15:50:12 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 15:50:12 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 15:50:12 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:50:12 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:50:12 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:50:12 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 15:50:12 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 15:50:14 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:50:14 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:50:14 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:50:14 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:50:14 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:50:14 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:50:15 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 15:50:15 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 15:50:15 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 15:50:15 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 15:50:15 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:50:15 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:50:15 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:50:15 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 15:50:15 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 15:52:26 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:52:26 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:52:26 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:52:26 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:52:26 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:52:26 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:52:27 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 15:52:27 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 15:52:27 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 15:52:27 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 15:52:27 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 15:52:27 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 15:52:27 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:52:27 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:52:27 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:55:38 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:55:38 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:55:38 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:55:38 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:55:38 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:55:38 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:55:38 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 15:55:38 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 15:55:38 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 15:55:38 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 15:55:38 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:55:38 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:55:38 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:55:38 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 15:55:38 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 15:55:55 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:55:55 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:55:55 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:55:55 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:55:55 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:55:55 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:55:55 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 15:55:55 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 15:55:55 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 15:55:55 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 15:55:55 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 15:55:55 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 15:55:55 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 15:55:55 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 15:55:55 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 16:03:51 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:03:51 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:03:51 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:03:51 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:03:51 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:03:51 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:03:52 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 16:03:52 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 16:03:52 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 16:03:52 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 16:03:52 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:03:52 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:03:52 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:03:52 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 16:03:52 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 16:04:46 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:04:46 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:04:46 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:04:46 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:04:46 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:04:46 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:04:47 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 16:04:47 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 16:04:47 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 16:04:47 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 16:04:47 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 16:04:47 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 16:04:47 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:04:47 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:04:47 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:06:50 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:06:50 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:06:50 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:06:50 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:06:50 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:06:50 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:06:50 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 16:06:50 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 16:06:50 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 16:06:50 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 16:06:50 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:06:50 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:06:50 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:06:51 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 16:06:51 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 16:13:38 [com.demo.web.filter.CharacterEncodingFilter:41] - 销毁字符集过滤
+2016-03-17 16:13:38 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-17 16:13:38 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-17 16:13:38 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-17 16:13:38 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-17 16:13:39 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-17 16:13:40 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-17 16:13:40 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-17 16:13:40 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-17 16:13:40 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-17 16:13:40 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-17 16:13:40 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-17 16:13:40 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-17 16:13:40 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-17 16:13:40 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-17 16:13:40 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-17 16:13:40 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-17 16:13:40 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-17 16:13:40 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-17 16:13:40 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-17 16:13:40 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-17 16:13:40 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-17 16:13:41 [com.demo.job.city.CityToRedisJob:39] - 执行存入完成
+2016-03-17 16:13:41 [com.demo.job.listener.ServerStartListener:25] - 服务器启动，执行city to redis job成功
+2016-03-17 16:13:41 [com.demo.web.filter.CharacterEncodingFilter:70] - 初始化字符集过滤
+2016-03-17 16:13:49 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:13:49 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:13:49 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:13:49 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:13:49 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:13:49 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:13:49 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 16:13:49 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 16:13:49 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 16:13:49 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 16:13:50 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:13:50 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:13:50 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:13:50 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 16:13:50 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 16:14:13 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:14:13 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:14:13 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:14:13 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:14:13 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:14:13 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:14:13 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 16:14:13 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 16:14:13 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 16:14:13 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 16:14:13 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:14:13 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:14:13 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:14:13 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 16:14:13 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 16:15:09 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:15:09 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:15:09 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:15:09 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:15:09 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:15:09 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:15:09 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 16:15:09 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 16:15:09 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 16:15:09 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 16:15:09 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:15:09 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:15:09 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:15:09 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 16:15:09 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 16:15:12 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:15:12 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:15:12 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:15:12 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:15:12 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:15:12 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:15:12 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 16:15:12 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 16:15:12 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 16:15:12 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 16:15:12 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:15:12 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:15:12 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:15:12 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 16:15:12 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 16:15:40 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:15:40 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:15:40 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:15:40 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:15:40 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:15:40 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:15:40 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 16:15:40 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 16:15:40 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 16:15:40 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 16:15:40 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:15:40 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:15:40 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:15:40 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 16:15:40 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 16:20:39 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:20:39 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:20:39 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:20:40 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:20:40 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:20:40 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:20:40 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 16:20:40 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 16:20:40 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 16:20:40 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 16:20:40 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 16:20:40 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 16:20:40 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:20:40 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:20:40 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:20:43 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:20:43 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:20:43 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:20:43 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:20:43 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:20:43 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:20:43 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 16:20:43 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 16:20:43 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 16:20:43 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 16:20:43 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:20:43 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:20:43 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:20:43 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 16:20:43 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 16:20:54 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:20:54 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:20:54 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:20:54 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:20:54 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:20:54 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:20:55 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 16:20:55 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 16:20:55 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 16:20:55 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 16:20:55 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:20:55 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:20:55 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:21:05 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:21:05 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:21:05 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:21:05 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:21:05 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:21:05 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:21:05 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 16:21:05 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 16:21:05 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 16:21:05 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 16:21:05 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:21:05 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:21:05 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:21:47 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:21:47 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:21:47 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:21:47 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:21:47 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:21:47 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:21:48 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 16:21:48 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 16:21:48 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 16:21:48 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 16:21:48 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 16:21:48 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-17 16:21:48 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:21:48 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:21:48 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:25:52 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:25:52 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:25:52 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:25:52 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:25:52 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:25:52 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:25:52 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:25:52 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:25:52 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:25:52 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:25:52 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:25:52 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:25:52 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-17 16:25:52 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-17 16:25:52 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-17 16:25:52 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-17 16:25:52 [com.demo.web.jsptag.JspTitleTag:27] - doTag 开始
+2016-03-17 16:25:52 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-17 16:25:52 [com.demo.web.jsptag.JspTitleTag:37] - doTag 结束
+2016-03-17 16:25:52 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-17 16:25:52 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]

@@ -1,0 +1,1000 @@
+2016-03-23 10:30:31 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-23 10:30:31 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-23 10:30:31 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-23 10:30:31 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-23 10:30:31 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-23 10:30:31 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-23 10:30:31 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-23 10:30:31 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-23 10:30:31 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-23 10:30:31 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-23 10:30:32 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-23 10:30:32 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-23 10:30:32 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-23 10:30:32 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-23 10:30:32 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-23 10:30:32 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-23 10:30:32 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-23 10:30:35 [com.demo.job.city.CityToRedisJob:39] - ÷¥––¥Ê»ÎÕÍ≥…
+2016-03-23 10:30:35 [com.demo.job.listener.ServerStartListener:25] - ∑˛ŒÒ∆˜∆Ù∂Ø£¨÷¥––city to redis job≥…π¶
+2016-03-23 10:30:35 [com.demo.web.filter.CharacterEncodingFilter:70] - ≥ı ºªØ◊÷∑˚ºØπ˝¬À
+2016-03-23 10:31:26 [com.demo.web.filter.CharacterEncodingFilter:41] - œ˙ªŸ◊÷∑˚ºØπ˝¬À
+2016-03-23 10:31:26 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-23 10:31:26 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-23 10:31:26 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-23 10:31:26 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-23 10:31:28 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-23 10:31:28 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-23 10:31:28 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-23 10:31:28 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-23 10:31:28 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-23 10:31:28 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-23 10:31:28 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-23 10:31:28 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-23 10:31:28 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-23 10:31:28 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-23 10:31:28 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-23 10:31:28 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-23 10:31:28 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-23 10:31:28 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-23 10:31:28 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-23 10:31:28 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-23 10:31:28 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-23 10:31:29 [com.demo.job.city.CityToRedisJob:39] - ÷¥––¥Ê»ÎÕÍ≥…
+2016-03-23 10:31:29 [com.demo.job.listener.ServerStartListener:25] - ∑˛ŒÒ∆˜∆Ù∂Ø£¨÷¥––city to redis job≥…π¶
+2016-03-23 10:31:29 [com.demo.web.filter.CharacterEncodingFilter:70] - ≥ı ºªØ◊÷∑˚ºØπ˝¬À
+2016-03-23 10:34:08 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-23 10:34:08 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-23 10:34:08 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-23 10:34:08 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-23 10:34:08 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-23 10:34:08 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-23 10:34:08 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-23 10:34:08 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-23 10:34:08 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-23 10:34:08 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-23 10:34:08 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-23 10:34:08 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-23 10:34:08 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-23 10:34:08 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-23 10:34:08 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-23 10:34:08 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-23 10:34:08 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-23 10:34:11 [com.demo.job.city.CityToRedisJob:39] - ÷¥––¥Ê»ÎÕÍ≥…
+2016-03-23 10:34:11 [com.demo.job.listener.ServerStartListener:25] - ∑˛ŒÒ∆˜∆Ù∂Ø£¨÷¥––city to redis job≥…π¶
+2016-03-23 10:34:11 [com.demo.web.filter.CharacterEncodingFilter:70] - ≥ı ºªØ◊÷∑˚ºØπ˝¬À
+2016-03-23 10:34:52 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-23 10:34:52 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-23 10:34:52 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-23 10:34:52 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/favicon.ico
+2016-03-23 10:35:01 [com.demo.web.jsptag.JspTitleTag:27] - doTag ø™ º
+2016-03-23 10:35:01 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 10:35:01 [com.demo.web.jsptag.JspTitleTag:37] - doTag Ω· ¯
+2016-03-23 10:35:01 [com.demo.web.jsptag.JspTitleTag:27] - doTag ø™ º
+2016-03-23 10:35:01 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 10:35:01 [com.demo.web.jsptag.JspTitleTag:37] - doTag Ω· ¯
+2016-03-23 10:35:01 [com.demo.web.jsptag.JspTitleTag:27] - doTag ø™ º
+2016-03-23 10:35:01 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 10:35:01 [com.demo.web.jsptag.JspTitleTag:37] - doTag Ω· ¯
+2016-03-23 10:35:04 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-23 10:35:04 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-23 10:35:04 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-23 10:35:04 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/favicon.ico
+2016-03-23 10:35:04 [com.demo.web.jsptag.JspTitleTag:27] - doTag ø™ º
+2016-03-23 10:35:04 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 10:35:04 [com.demo.web.jsptag.JspTitleTag:37] - doTag Ω· ¯
+2016-03-23 10:35:04 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-23 10:35:04 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=±±æ© –]
+2016-03-23 10:37:47 [com.demo.web.jsptag.JspTitleTag:27] - doTag ø™ º
+2016-03-23 10:37:47 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 10:37:47 [com.demo.web.jsptag.JspTitleTag:37] - doTag Ω· ¯
+2016-03-23 10:37:48 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-23 10:37:48 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=±±æ© –]
+2016-03-23 10:45:08 [com.demo.web.jsptag.JspTitleTag:27] - doTag ø™ º
+2016-03-23 10:45:08 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 10:45:08 [com.demo.web.jsptag.JspTitleTag:37] - doTag Ω· ¯
+2016-03-23 10:45:09 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-23 10:45:09 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=±±æ© –]
+2016-03-23 10:45:37 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-23 10:45:37 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-23 10:45:37 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-23 10:45:37 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/favicon.ico
+2016-03-23 10:45:37 [com.demo.web.jsptag.JspTitleTag:27] - doTag ø™ º
+2016-03-23 10:45:37 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 10:45:37 [com.demo.web.jsptag.JspTitleTag:37] - doTag Ω· ¯
+2016-03-23 10:45:41 [com.demo.web.servlet.driver.DriverLoginServlet:31] - µ«¬ºΩ¯»Îø™ º
+2016-03-23 10:45:41 [com.demo.web.jsptag.JspTitleTag:27] - doTag ø™ º
+2016-03-23 10:45:41 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 10:45:41 [com.demo.web.jsptag.JspTitleTag:37] - doTag Ω· ¯
+2016-03-23 10:45:41 [com.demo.web.jsptag.JspTitleTag:27] - doTag ø™ º
+2016-03-23 10:45:41 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 10:45:41 [com.demo.web.jsptag.JspTitleTag:37] - doTag Ω· ¯
+2016-03-23 10:45:41 [com.demo.web.jsptag.JspTitleTag:27] - doTag ø™ º
+2016-03-23 10:45:41 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 10:45:41 [com.demo.web.jsptag.JspTitleTag:37] - doTag Ω· ¯
+2016-03-23 10:45:41 [com.demo.web.servlet.driver.DriverLoginServlet:37] - µ«¬ºΩ¯»ÎΩ· ¯
+2016-03-23 10:45:41 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-23 10:45:41 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=±±æ© –]
+2016-03-23 12:05:00 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-23 12:05:00 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-23 12:05:00 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-23 12:05:00 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/favicon.ico
+2016-03-23 12:05:01 [com.demo.web.jsptag.JspTitleTag:27] - doTag ø™ º
+2016-03-23 12:05:01 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 12:05:01 [com.demo.web.jsptag.JspTitleTag:37] - doTag Ω· ¯
+2016-03-23 12:05:03 [com.demo.web.servlet.driver.DriverSignupServlet:29] - do get method start...
+2016-03-23 12:05:03 [com.demo.web.jsptag.JspTitleTag:27] - doTag ø™ º
+2016-03-23 12:05:03 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 12:05:03 [com.demo.web.jsptag.JspTitleTag:37] - doTag Ω· ¯
+2016-03-23 12:05:03 [com.demo.web.servlet.driver.DriverSignupServlet:31] - do get method end...
+2016-03-23 12:05:04 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-23 12:05:04 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=±±æ© –]
+2016-03-23 12:05:18 [com.demo.web.servlet.Error500Servlet:43] - throwable=null
+2016-03-23 12:05:18 [com.demo.web.servlet.Error500Servlet:47] - statusCode=500
+2016-03-23 12:05:18 [com.demo.web.servlet.Error500Servlet:48] - servletName=com.demo.web.servlet.driver.DriverCaptchaServlet
+2016-03-23 12:05:18 [com.demo.web.servlet.Error500Servlet:49] - message=java.lang.reflect.UndeclaredThrowableException
+2016-03-23 12:05:18 [com.demo.web.servlet.Error500Servlet:50] - requestUri=/driver/captcha
+2016-03-23 12:05:18 [com.demo.web.jsptag.JspTitleTag:27] - doTag ø™ º
+2016-03-23 12:05:18 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 12:05:18 [com.demo.web.jsptag.JspTitleTag:37] - doTag Ω· ¯
+2016-03-23 12:07:00 [com.demo.web.servlet.driver.DriverSignupServlet:29] - do get method start...
+2016-03-23 12:07:00 [com.demo.web.jsptag.JspTitleTag:27] - doTag ø™ º
+2016-03-23 12:07:00 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 12:07:00 [com.demo.web.jsptag.JspTitleTag:37] - doTag Ω· ¯
+2016-03-23 12:07:00 [com.demo.web.servlet.driver.DriverSignupServlet:31] - do get method end...
+2016-03-23 12:07:00 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-23 12:07:00 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=±±æ© –]
+2016-03-23 12:07:19 [com.demo.web.servlet.Error500Servlet:43] - throwable=null
+2016-03-23 12:07:19 [com.demo.web.servlet.Error500Servlet:47] - statusCode=500
+2016-03-23 12:07:19 [com.demo.web.servlet.Error500Servlet:48] - servletName=com.demo.web.servlet.driver.DriverCaptchaServlet
+2016-03-23 12:07:19 [com.demo.web.servlet.Error500Servlet:49] - message=java.lang.reflect.UndeclaredThrowableException
+2016-03-23 12:07:19 [com.demo.web.servlet.Error500Servlet:50] - requestUri=/driver/captcha
+2016-03-23 12:07:19 [com.demo.web.jsptag.JspTitleTag:27] - doTag ø™ º
+2016-03-23 12:07:19 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 12:07:19 [com.demo.web.jsptag.JspTitleTag:37] - doTag Ω· ¯
+2016-03-23 12:19:35 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-23 12:19:36 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-23 12:19:36 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-23 12:19:36 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-23 12:19:36 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-23 12:19:36 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-23 12:19:36 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-23 12:19:36 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-23 12:19:36 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-23 12:19:36 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-23 12:19:36 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-23 12:19:36 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-23 12:19:36 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-23 12:19:36 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-23 12:19:36 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-23 12:19:36 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-23 12:19:36 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-23 12:19:39 [com.demo.job.city.CityToRedisJob:39] - ÷¥––¥Ê»ÎÕÍ≥…
+2016-03-23 12:19:39 [com.demo.job.listener.ServerStartListener:25] - ∑˛ŒÒ∆˜∆Ù∂Ø£¨÷¥––city to redis job≥…π¶
+2016-03-23 12:19:39 [com.demo.web.filter.CharacterEncodingFilter:70] - ≥ı ºªØ◊÷∑˚ºØπ˝¬À
+2016-03-23 12:19:51 [com.demo.web.servlet.driver.DriverSignupServlet:29] - do get method start...
+2016-03-23 12:19:52 [com.demo.web.jsptag.JspTitleTag:27] - doTag ø™ º
+2016-03-23 12:19:52 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 12:19:52 [com.demo.web.jsptag.JspTitleTag:37] - doTag Ω· ¯
+2016-03-23 12:19:53 [com.demo.web.servlet.driver.DriverSignupServlet:31] - do get method end...
+2016-03-23 12:19:53 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-23 12:19:53 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=±±æ© –]
+2016-03-23 12:20:10 [com.demo.web.servlet.Error500Servlet:43] - throwable=null
+2016-03-23 12:20:10 [com.demo.web.servlet.Error500Servlet:47] - statusCode=500
+2016-03-23 12:20:10 [com.demo.web.servlet.Error500Servlet:48] - servletName=com.demo.web.servlet.driver.DriverCaptchaServlet
+2016-03-23 12:20:10 [com.demo.web.servlet.Error500Servlet:49] - message=java.lang.reflect.UndeclaredThrowableException
+2016-03-23 12:20:10 [com.demo.web.servlet.Error500Servlet:50] - requestUri=/driver/captcha
+2016-03-23 12:20:10 [com.demo.web.jsptag.JspTitleTag:27] - doTag ø™ º
+2016-03-23 12:20:10 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 12:20:10 [com.demo.web.jsptag.JspTitleTag:37] - doTag Ω· ¯
+2016-03-23 12:21:55 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-23 12:21:55 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-23 12:21:55 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-23 12:21:55 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/favicon.ico
+2016-03-23 12:21:56 [com.demo.web.jsptag.JspTitleTag:27] - doTag ø™ º
+2016-03-23 12:21:56 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 12:21:56 [com.demo.web.jsptag.JspTitleTag:37] - doTag Ω· ¯
+2016-03-23 12:27:25 [com.demo.web.filter.CharacterEncodingFilter:41] - œ˙ªŸ◊÷∑˚ºØπ˝¬À
+2016-03-23 12:27:25 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-23 12:27:25 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-23 12:27:25 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-23 12:27:25 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-23 12:27:27 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-23 12:27:27 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-23 12:27:27 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-23 12:27:27 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-23 12:27:27 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-23 12:27:27 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-23 12:27:27 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-23 12:27:27 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-23 12:27:27 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-23 12:27:27 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-23 12:27:27 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-23 12:27:27 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-23 12:27:27 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-23 12:27:27 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-23 12:27:27 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-23 12:27:27 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-23 12:27:28 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-23 12:27:28 [com.demo.job.city.CityToRedisJob:39] - ÷¥––¥Ê»ÎÕÍ≥…
+2016-03-23 12:27:28 [com.demo.job.listener.ServerStartListener:25] - ∑˛ŒÒ∆˜∆Ù∂Ø£¨÷¥––city to redis job≥…π¶
+2016-03-23 12:27:28 [com.demo.web.filter.CharacterEncodingFilter:70] - ≥ı ºªØ◊÷∑˚ºØπ˝¬À
+2016-03-23 12:31:12 [com.demo.web.servlet.driver.DriverSignupServlet:29] - do get method start...
+2016-03-23 12:31:13 [com.demo.web.jsptag.JspTitleTag:27] - doTag ø™ º
+2016-03-23 12:31:13 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 12:31:13 [com.demo.web.jsptag.JspTitleTag:37] - doTag Ω· ¯
+2016-03-23 12:31:14 [com.demo.web.servlet.driver.DriverSignupServlet:31] - do get method end...
+2016-03-23 12:31:14 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-23 12:31:14 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=±±æ© –]
+2016-03-23 12:31:23 [com.demo.web.servlet.Error500Servlet:43] - throwable=null
+2016-03-23 12:31:23 [com.demo.web.servlet.Error500Servlet:47] - statusCode=500
+2016-03-23 12:31:23 [com.demo.web.servlet.Error500Servlet:48] - servletName=com.demo.web.servlet.driver.DriverCaptchaServlet
+2016-03-23 12:31:23 [com.demo.web.servlet.Error500Servlet:49] - message=java.lang.reflect.UndeclaredThrowableException
+2016-03-23 12:31:23 [com.demo.web.servlet.Error500Servlet:50] - requestUri=/driver/captcha
+2016-03-23 12:31:23 [com.demo.web.jsptag.JspTitleTag:27] - doTag ø™ º
+2016-03-23 12:31:23 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 12:31:23 [com.demo.web.jsptag.JspTitleTag:37] - doTag Ω· ¯
+2016-03-23 12:33:40 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-23 12:33:40 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-23 12:33:40 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-23 12:33:40 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-23 12:33:40 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-23 12:33:40 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-23 12:33:40 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-23 12:33:40 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-23 12:33:40 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-23 12:33:40 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-23 12:33:40 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-23 12:33:40 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-23 12:33:40 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-23 12:33:40 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-23 12:33:40 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-23 12:33:40 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-23 12:33:41 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-23 12:33:44 [com.demo.job.city.CityToRedisJob:39] - ÷¥––¥Ê»ÎÕÍ≥…
+2016-03-23 12:33:44 [com.demo.job.listener.ServerStartListener:25] - ∑˛ŒÒ∆˜∆Ù∂Ø£¨÷¥––city to redis job≥…π¶
+2016-03-23 12:33:44 [com.demo.web.filter.CharacterEncodingFilter:70] - ≥ı ºªØ◊÷∑˚ºØπ˝¬À
+2016-03-23 12:34:10 [com.demo.web.servlet.driver.DriverSignupServlet:29] - do get method start...
+2016-03-23 12:34:12 [com.demo.web.jsptag.JspTitleTag:27] - doTag ø™ º
+2016-03-23 12:34:12 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 12:34:12 [com.demo.web.jsptag.JspTitleTag:37] - doTag Ω· ¯
+2016-03-23 12:34:12 [com.demo.web.servlet.driver.DriverSignupServlet:31] - do get method end...
+2016-03-23 12:34:13 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-23 12:34:13 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=±±æ© –]
+2016-03-23 12:34:27 [com.demo.web.servlet.Error500Servlet:43] - throwable=null
+2016-03-23 12:34:27 [com.demo.web.servlet.Error500Servlet:47] - statusCode=500
+2016-03-23 12:34:27 [com.demo.web.servlet.Error500Servlet:48] - servletName=com.demo.web.servlet.driver.DriverCaptchaServlet
+2016-03-23 12:34:27 [com.demo.web.servlet.Error500Servlet:49] - message=java.lang.reflect.UndeclaredThrowableException
+2016-03-23 12:34:27 [com.demo.web.servlet.Error500Servlet:50] - requestUri=/driver/captcha
+2016-03-23 12:34:27 [com.demo.web.jsptag.JspTitleTag:27] - doTag ø™ º
+2016-03-23 12:34:27 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 12:34:27 [com.demo.web.jsptag.JspTitleTag:37] - doTag Ω· ¯
+2016-03-23 12:37:40 [com.demo.web.servlet.driver.DriverSignupServlet:29] - do get method start...
+2016-03-23 12:37:40 [com.demo.web.jsptag.JspTitleTag:27] - doTag ø™ º
+2016-03-23 12:37:40 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 12:37:40 [com.demo.web.jsptag.JspTitleTag:37] - doTag Ω· ¯
+2016-03-23 12:37:40 [com.demo.web.servlet.driver.DriverSignupServlet:31] - do get method end...
+2016-03-23 12:37:40 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-23 12:37:40 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=±±æ© –]
+2016-03-23 12:38:51 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-23 12:38:51 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-23 12:38:51 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-23 12:38:51 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-23 12:38:51 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-23 12:38:51 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-23 12:38:51 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-23 12:38:51 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-23 12:38:51 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-23 12:38:51 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-23 12:38:52 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-23 12:38:52 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-23 12:38:52 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-23 12:38:52 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-23 12:38:52 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-23 12:38:52 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-23 12:38:52 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-23 12:38:55 [com.demo.job.city.CityToRedisJob:39] - ÷¥––¥Ê»ÎÕÍ≥…
+2016-03-23 12:38:55 [com.demo.job.listener.ServerStartListener:25] - ∑˛ŒÒ∆˜∆Ù∂Ø£¨÷¥––city to redis job≥…π¶
+2016-03-23 12:38:55 [com.demo.web.filter.CharacterEncodingFilter:70] - ≥ı ºªØ◊÷∑˚ºØπ˝¬À
+2016-03-23 12:39:04 [com.demo.web.servlet.driver.DriverSignupServlet:29] - do get method start...
+2016-03-23 12:39:06 [com.demo.web.jsptag.JspTitleTag:27] - doTag ø™ º
+2016-03-23 12:39:06 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 12:39:06 [com.demo.web.jsptag.JspTitleTag:37] - doTag Ω· ¯
+2016-03-23 12:39:07 [com.demo.web.servlet.driver.DriverSignupServlet:31] - do get method end...
+2016-03-23 12:39:07 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-23 12:39:07 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=±±æ© –]
+2016-03-23 12:39:35 [com.demo.rpc.service.impl.CaptchaRpcServiceImpl:27] - rest uri builder=//http%3A%2F%2Fwww.lajiaoer.com%2Frest/generate
+2016-03-23 12:39:35 [com.demo.web.servlet.Error500Servlet:43] - throwable=null
+2016-03-23 12:39:35 [com.demo.web.servlet.Error500Servlet:47] - statusCode=500
+2016-03-23 12:39:35 [com.demo.web.servlet.Error500Servlet:48] - servletName=com.demo.web.servlet.driver.DriverCaptchaServlet
+2016-03-23 12:39:35 [com.demo.web.servlet.Error500Servlet:49] - message=java.lang.reflect.UndeclaredThrowableException
+2016-03-23 12:39:35 [com.demo.web.servlet.Error500Servlet:50] - requestUri=/driver/captcha
+2016-03-23 12:39:35 [com.demo.web.jsptag.JspTitleTag:27] - doTag ø™ º
+2016-03-23 12:39:35 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 12:39:35 [com.demo.web.jsptag.JspTitleTag:37] - doTag Ω· ¯
+2016-03-23 12:43:05 [com.demo.web.servlet.driver.DriverSignupServlet:29] - do get method start...
+2016-03-23 12:43:05 [com.demo.web.jsptag.JspTitleTag:27] - doTag ø™ º
+2016-03-23 12:43:05 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 12:43:05 [com.demo.web.jsptag.JspTitleTag:37] - doTag Ω· ¯
+2016-03-23 12:43:05 [com.demo.web.servlet.driver.DriverSignupServlet:31] - do get method end...
+2016-03-23 12:43:05 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-23 12:43:05 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=±±æ© –]
+2016-03-23 12:43:18 [com.demo.rpc.service.impl.CaptchaRpcServiceImpl:28] - rest result=AjaxResult [code=200, msg=≥…π¶, data={base64=data:image/jpg;base64,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, token=NKX4XKDF}]
+2016-03-23 12:43:18 [com.demo.web.servlet.driver.DriverCaptchaServlet:47] - Driver —È÷§¬Î={base64=data:image/jpg;base64,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, token=NKX4XKDF, alias=ae3623dbf0a4a6976ad687bb934285b8}
+2016-03-23 13:01:25 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-23 13:01:25 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-23 13:01:25 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-23 13:01:25 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-23 13:01:25 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-23 13:01:25 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-23 13:01:25 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-23 13:01:25 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-23 13:01:25 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-23 13:01:25 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-23 13:01:25 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-23 13:01:25 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-23 13:01:25 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-23 13:01:25 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-23 13:01:25 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-23 13:01:25 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-23 13:01:26 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-23 13:01:29 [com.demo.job.city.CityToRedisJob:39] - ÷¥––¥Ê»ÎÕÍ≥…
+2016-03-23 13:01:29 [com.demo.job.listener.ServerStartListener:25] - ∑˛ŒÒ∆˜∆Ù∂Ø£¨÷¥––city to redis job≥…π¶
+2016-03-23 13:01:29 [com.demo.web.filter.CharacterEncodingFilter:70] - ≥ı ºªØ◊÷∑˚ºØπ˝¬À
+2016-03-23 13:01:35 [com.demo.web.servlet.driver.DriverSignupServlet:29] - do get method start...
+2016-03-23 13:01:37 [com.demo.web.jsptag.JspTitleTag:27] - doTag ø™ º
+2016-03-23 13:01:37 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 13:01:37 [com.demo.web.jsptag.JspTitleTag:37] - doTag Ω· ¯
+2016-03-23 13:01:37 [com.demo.web.servlet.driver.DriverSignupServlet:31] - do get method end...
+2016-03-23 13:01:38 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-23 13:01:38 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=±±æ© –]
+2016-03-23 13:01:45 [com.demo.rpc.service.impl.CaptchaRpcServiceImpl:28] - rest result=AjaxResult [code=200, msg=≥…π¶, data={base64=data:image/jpg;base64,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, token=n7d6FE}]
+2016-03-23 13:01:45 [com.demo.web.servlet.driver.DriverCaptchaServlet:47] - Driver —È÷§¬Î={base64=data:image/jpg;base64,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, token=n7d6FE, alias=4705f5b08b81edeb5bf191b565bfa348}
+2016-03-23 13:01:57 [com.demo.rpc.service.impl.CaptchaRpcServiceImpl:28] - rest result=AjaxResult [code=200, msg=≥…π¶, data={base64=data:image/jpg;base64,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, token=uc253A}]
+2016-03-23 13:01:57 [com.demo.web.servlet.driver.DriverCaptchaServlet:47] - Driver —È÷§¬Î={base64=data:image/jpg;base64,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, token=uc253A, alias=ca1b37442478b5fd558c876f03ee6f87}
+2016-03-23 13:02:20 [com.demo.rpc.service.impl.CaptchaRpcServiceImpl:28] - rest result=AjaxResult [code=200, msg=≥…π¶, data={base64=data:image/jpg;base64,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p9hY+G9OZFkYRZyS5ySaAOM1rS73Rrt2srpgCC4GewrqPCOvHWrEh1IliADE96wvEepieaeONC93OgighHJVT1J9K2/BWizaPpZFyoWeVtzAdh6UAdFRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABUTW0D/eiQ/ValooAjjgiiz5carn0GKkoooAQgHqAabJDFIMPGrD3FPooAqzabZzxlJLaMqeo20+0s7eyi8u2iWNM5woqeigDB1vwtaaxcJNISrA/NjvW1BDHbQJDCoWNBhQO1SUUARXM3kW7y7GfaM7VHJrltS8WW0tnNbvBJBMwwBIP1rrqoXujWF9n7RbqzEYzjmgDzPwzZW2r68/2sobdAScnGaqanbW8uufZbBNsTyBVA9K7u58Cae/8Ax6u8Bx/CetZa+B7+zukurS7UyqeCR0FAGx4nskt/BxgAwIkAGK5z4bXPl6lNASMOua7bUtOmvdDa0Zw8zLgs3c15wmjavod20vkOyHK5j6sKAPQdV8Q29ikgjIdkHLE/KD9e5rnYBrHiV1kiLQwqeZpBj/vkVihr6e7juLqxlKxf6uER5Ue59TW6niXVVUILOVE6fJDjFAGtDBovht90hL3RGXlb5m+pPat+CZbiFJUztcZGa4C2F5rOpQ2b2U0NoX8yWR+WfHqfSvQkUIiqowFGAKAFooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKQgHqAaWigBNq+g/KjavoPypaKAEAA6ACloooAKKKKACiiigAooooAKKKKACiiigD//2Q==, token=P2V4R2}]
+2016-03-23 13:02:20 [com.demo.web.servlet.driver.DriverCaptchaServlet:47] - Driver —È÷§¬Î={base64=data:image/jpg;base64,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p9hY+G9OZFkYRZyS5ySaAOM1rS73Rrt2srpgCC4GewrqPCOvHWrEh1IliADE96wvEepieaeONC93OgighHJVT1J9K2/BWizaPpZFyoWeVtzAdh6UAdFRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABUTW0D/eiQ/ValooAjjgiiz5carn0GKkoooAQgHqAabJDFIMPGrD3FPooAqzabZzxlJLaMqeo20+0s7eyi8u2iWNM5woqeigDB1vwtaaxcJNISrA/NjvW1BDHbQJDCoWNBhQO1SUUARXM3kW7y7GfaM7VHJrltS8WW0tnNbvBJBMwwBIP1rrqoXujWF9n7RbqzEYzjmgDzPwzZW2r68/2sobdAScnGaqanbW8uufZbBNsTyBVA9K7u58Cae/8Ax6u8Bx/CetZa+B7+zukurS7UyqeCR0FAGx4nskt/BxgAwIkAGK5z4bXPl6lNASMOua7bUtOmvdDa0Zw8zLgs3c15wmjavod20vkOyHK5j6sKAPQdV8Q29ikgjIdkHLE/KD9e5rnYBrHiV1kiLQwqeZpBj/vkVihr6e7juLqxlKxf6uER5Ue59TW6niXVVUILOVE6fJDjFAGtDBovht90hL3RGXlb5m+pPat+CZbiFJUztcZGa4C2F5rOpQ2b2U0NoX8yWR+WfHqfSvQkUIiqowFGAKAFooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKQgHqAaWigBNq+g/KjavoPypaKAEAA6ACloooAKKKKACiiigAooooAKKKKACiiigD//2Q==, token=P2V4R2, alias=8cdf3c48aebc63706b4cf4b0c22ec8a4}
+2016-03-23 13:02:21 [com.demo.rpc.service.impl.CaptchaRpcServiceImpl:28] - rest result=AjaxResult [code=200, msg=≥…π¶, data={base64=data:image/jpg;base64,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Bp1FAHP6P4aTTNTlnQqYicouORXQUUUAZl14f0y8uTcT2kbynqxFTppdkkYQW6FR2IzVyigBkUUcKbIkVF9AMU4gMMEAj3paKAMu58O6VdSF5rONmPU4qBPC9hFJmINGv90HituigDl9Z8ILeJm0uXik75OQw9DTNP0vVNBVRZpHPGf9YhYj8ic11dFAEcEhmgDPGYyw5RuorhPFvhTyZ/7TsUym7dLEP5iu/pGUMpVhkGgDhYNaj0zTUSaES2zsFdT1weP6VVvvCrBDq2h3ACY8xVXqPpXWXnhqxu4po2UgS847KfUVlv4b1S0txbabqJSDHIagDiNC1AxarI90SXmG0sexr1bTJFuNKj2cfJs/EcVxq+CLqe3aGVkjdW3CUcljTrC417w1m1miFxEx+RiGIH4igDPsFNrruoWzctu3ZFelwSCWCOQDAZQa8suv7QTWft5hUeacMBkL9Oa7bQ9YmcRWk1q5IGPNU5UenUCgDoKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigApGRW+8oP1FLRQBE9vC67WiUr6Yp6RpGMIoUewp1FABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z, token=vTGNsd}]
+2016-03-23 13:02:21 [com.demo.web.servlet.driver.DriverCaptchaServlet:47] - Driver —È÷§¬Î={base64=data:image/jpg;base64,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Bp1FAHP6P4aTTNTlnQqYicouORXQUUUAZl14f0y8uTcT2kbynqxFTppdkkYQW6FR2IzVyigBkUUcKbIkVF9AMU4gMMEAj3paKAMu58O6VdSF5rONmPU4qBPC9hFJmINGv90HituigDl9Z8ILeJm0uXik75OQw9DTNP0vVNBVRZpHPGf9YhYj8ic11dFAEcEhmgDPGYyw5RuorhPFvhTyZ/7TsUym7dLEP5iu/pGUMpVhkGgDhYNaj0zTUSaES2zsFdT1weP6VVvvCrBDq2h3ACY8xVXqPpXWXnhqxu4po2UgS847KfUVlv4b1S0txbabqJSDHIagDiNC1AxarI90SXmG0sexr1bTJFuNKj2cfJs/EcVxq+CLqe3aGVkjdW3CUcljTrC417w1m1miFxEx+RiGIH4igDPsFNrruoWzctu3ZFelwSCWCOQDAZQa8suv7QTWft5hUeacMBkL9Oa7bQ9YmcRWk1q5IGPNU5UenUCgDoKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigApGRW+8oP1FLRQBE9vC67WiUr6Yp6RpGMIoUewp1FABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z, token=vTGNsd, alias=f07ff8cdd6698095b9766a444d17204b}
+2016-03-23 13:02:21 [com.demo.rpc.service.impl.CaptchaRpcServiceImpl:28] - rest result=AjaxResult [code=200, msg=≥…π¶, data={base64=data:image/jpg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCABQASIDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD0CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKxNU8UWGmyeUzGSTOCqcmgDbornrbxhpkpxKZICTgF14rD1rW7yw8QxraXge2uCCB1AzQB3tFUtJvGvrFJmXDEDOPpmrtABRRRQAUUUUAFFFFABRRRQAUUhIAyTgVz2o+LLW3ZobQfaJwfuigDoqK4Y6j4lviPIQQ9wMc1n3t74s06M3E+4xg5OB0oA9JorlPDHi4aqwguYwknTcOhNdVQAtFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFeZa3atY+MxLcABJs7G7ZPT+dem1na1o9vrFoYZhhhyjjqpoAztN0qy1PTw9zEGZjk8DjPNcj4x8MHSQt3ays0GcbWPK1t2kes+FnKyIb6yPdfvL/nFVfE3iH+1tMa2t7OTk5ywoAxvDep6wITFa3GIlOAG5/wA9q6gap4lsYxJc2iXECjLOvBxiuG8PX62F5mVioDZx+B/+t+Vex280d3bLIhDI4oA5uLx5pb43h0JOMEdKvv4s0ZEVmu1wwzXn/jrT4rLWma3CqknzYXsa0/C2lWN/HCrx5LoC5PPPI/pQBr+IPF/lPHb6SVnkl6MDVRLzxLdkDzkTPZR1rD1HT00LxZGmNsRP7s+men869B8OLC1j50Y+Zzzn6UAc80HiuMZinZj6FTUFx4p1vSf3Gq2oBcYWQetdfq+rwaRAs1yGKE4yo6f5zXPXvi3QL6Ly7qJpE/2loAwPDWv3kmup9ouZGjZiNvb1/oa9PrxZ7i1h1szWWRAG3KPbOf5V7FYTefZRSZJyoyTQBheOdTl0/Sf3DhXkOD9Ky/CWmRvsZ1+cgMzHqTgE/wA61PHWly6jo+6BQzxHdjviuf8ACevQQPClxIUdQI2Dfj/9b8qAPQ0RY1CoAAOwpJI0lQpIoZTwQaimuo1t3kjkjYgfL8wwTXCT+OdShlkhNqhbOFwaAMqzh+yeJruKP/VhTjb0B7f5969O06RpbKNnzu75ry2wvYorx7q9hmWWVuQqnFel6PqNtfWwW23YQYww5oA0aKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAEIBBBGQaqNploz7jEM+x61cooA8o1/TEtfEsscUJWFlY4xx0OP5V0UOg6jbWvmaZeyLG+R5ROccmurvNOtb0fv4gx6Z71NDCsESxpnaOmaAPPZvBuo3TvJcSNK+3jfU3hKC80+7ihuInjIYryOCMjH8zXoFIQDjIBx0oAxfEfh231uDJ+S4QfJIO1crp2qaj4Vuzb6rEzWzHAcdPr+tei1Bd2dvexeVcxLInoaAMgeI9Cv4dslxGyn+FxWXf6p4YjheOO3jmYjGEXNaL+DtKLZji2VJD4VsYjwAf+A0AeTXMRiui4iZI2OVB9K7vSPGkNtpMULRSS3CDG0Dr/k11f8AYtgQPMt1kK9C1SRaVYROHjtIlYd9tAHKyeL9Quh/oWluwHDBhUNp4UbWGkn1G3NrI3KsnGen/wBeu5SNE+4ir9Bin0AcQnga5U4OpSMmfuknpWtZ+FLWAq0hDsp4PU10NFAFb7BaFApt4yB6rUkNtDBnyo1Td1xUtFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH/9k=, token=dprGLQ}]
+2016-03-23 13:02:21 [com.demo.web.servlet.driver.DriverCaptchaServlet:47] - Driver —È÷§¬Î={base64=data:image/jpg;base64,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, token=dprGLQ, alias=ad96d812c9fd2029258702bc54c40fa1}
+2016-03-23 13:02:21 [com.demo.rpc.service.impl.CaptchaRpcServiceImpl:28] - rest result=AjaxResult [code=200, msg=≥…π¶, data={base64=data:image/jpg;base64,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MYPX1NAGBZWOqaVarLYvuhIyFJAwPY5wRWfrlxrmpIkLwEYz8wKnqMdq9DghSCFIoxhUAUfSnlQSCQMjoaAPHBouoaXc287QuXWQHAUnGOxr161YtbRFupUZOc5pzQxO4do0Zh0YqCRT6APN/Hul7b+S5TA3gMc9+P5cH8SKh8Ja1daPb4niP2RjwTkc969C1OyW7tnwgaUKQmSQD3wcH2rirm01G1nSS3jaSFfvou7P4gEnP1oA0NY8XWtzpssNrG0kzrgKOa4DUEuEuvNlH7yXJA/wx/niu3XWREMpo7iXs3lPwfxqrp3hS/1K+iutRxFGpztx75xzQBveBtI/s/R1llQebKdwJHIFdNTURY41RFCqowABwBTqAKl9p8F+gWZemcH29PpWNY+C9MtLnz2XzXDbgCOP1zXSUUAJS0UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUx40kGJEVh/tDNPooAh+y24/5YRf98CpQABgcClooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//2Q==, token=q6hgAK}]
+2016-03-23 13:02:21 [com.demo.web.servlet.driver.DriverCaptchaServlet:47] - Driver —È÷§¬Î={base64=data:image/jpg;base64,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MYPX1NAGBZWOqaVarLYvuhIyFJAwPY5wRWfrlxrmpIkLwEYz8wKnqMdq9DghSCFIoxhUAUfSnlQSCQMjoaAPHBouoaXc287QuXWQHAUnGOxr161YtbRFupUZOc5pzQxO4do0Zh0YqCRT6APN/Hul7b+S5TA3gMc9+P5cH8SKh8Ja1daPb4niP2RjwTkc969C1OyW7tnwgaUKQmSQD3wcH2rirm01G1nSS3jaSFfvou7P4gEnP1oA0NY8XWtzpssNrG0kzrgKOa4DUEuEuvNlH7yXJA/wx/niu3XWREMpo7iXs3lPwfxqrp3hS/1K+iutRxFGpztx75xzQBveBtI/s/R1llQebKdwJHIFdNTURY41RFCqowABwBTqAKl9p8F+gWZemcH29PpWNY+C9MtLnz2XzXDbgCOP1zXSUUAJS0UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUx40kGJEVh/tDNPooAh+y24/5YRf98CpQABgcClooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//2Q==, token=q6hgAK, alias=dd19d09e0e476ac93c4ba7d83e4a44cc}
+2016-03-23 13:02:21 [com.demo.rpc.service.impl.CaptchaRpcServiceImpl:28] - rest result=AjaxResult [code=200, msg=≥…π¶, data={base64=data:image/jpg;base64,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, token=kUe3Yy}]
+2016-03-23 13:02:21 [com.demo.web.servlet.driver.DriverCaptchaServlet:47] - Driver —È÷§¬Î={base64=data:image/jpg;base64,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, token=kUe3Yy, alias=a9e013b73256dc95573b5a6458d4f34a}
+2016-03-23 13:07:36 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-23 13:07:36 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-23 13:07:36 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-23 13:07:36 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-23 13:07:36 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-23 13:07:36 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-23 13:07:36 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-23 13:07:36 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-23 13:07:36 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-23 13:07:36 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-23 13:07:36 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-23 13:07:36 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-23 13:07:36 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-23 13:07:36 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-23 13:07:36 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-23 13:07:36 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-23 13:07:36 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-23 13:07:39 [com.demo.job.city.CityToRedisJob:39] - ÊâßË°åÂ≠òÂÖ•ÂÆåÊàê
+2016-03-23 13:07:39 [com.demo.job.listener.ServerStartListener:25] - ÊúçÂä°Âô®ÂêØÂä®ÔºåÊâßË°åcity to redis jobÊàêÂäü
+2016-03-23 13:07:39 [com.demo.web.filter.CharacterEncodingFilter:70] - ÂàùÂßãÂåñÂ≠óÁ¨¶ÈõÜËøáÊª§
+2016-03-23 13:09:13 [com.demo.web.servlet.driver.DriverSignupServlet:29] - do get method start...
+2016-03-23 13:09:14 [com.demo.web.jsptag.JspTitleTag:27] - doTag ÂºÄÂßã
+2016-03-23 13:09:14 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 13:09:14 [com.demo.web.jsptag.JspTitleTag:37] - doTag ÁªìÊùü
+2016-03-23 13:09:15 [com.demo.web.servlet.driver.DriverSignupServlet:31] - do get method end...
+2016-03-23 13:09:15 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-23 13:09:15 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=Âåó‰∫¨Â∏Ç]
+2016-03-23 13:09:37 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-23 13:09:37 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-23 13:09:37 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-23 13:09:37 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-23 13:09:37 [com.demo.web.jsptag.JspTitleTag:27] - doTag ÂºÄÂßã
+2016-03-23 13:09:37 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 13:09:37 [com.demo.web.jsptag.JspTitleTag:37] - doTag ÁªìÊùü
+2016-03-23 13:10:41 [com.demo.web.filter.CharacterEncodingFilter:41] - ÈîÄÊØÅÂ≠óÁ¨¶ÈõÜËøáÊª§
+2016-03-23 13:10:41 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-23 13:10:41 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-23 13:10:41 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-23 13:10:41 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-23 13:10:43 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-23 13:10:43 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-23 13:10:43 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-23 13:10:43 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-23 13:10:43 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-23 13:10:43 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-23 13:10:43 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-23 13:10:43 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-23 13:10:43 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-23 13:10:43 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-23 13:10:43 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-23 13:10:43 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-23 13:10:43 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-23 13:10:43 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-23 13:10:43 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-23 13:10:43 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-23 13:10:43 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-23 13:10:44 [com.demo.job.city.CityToRedisJob:39] - ÊâßË°åÂ≠òÂÖ•ÂÆåÊàê
+2016-03-23 13:10:44 [com.demo.job.listener.ServerStartListener:25] - ÊúçÂä°Âô®ÂêØÂä®ÔºåÊâßË°åcity to redis jobÊàêÂäü
+2016-03-23 13:10:44 [com.demo.web.filter.CharacterEncodingFilter:70] - ÂàùÂßãÂåñÂ≠óÁ¨¶ÈõÜËøáÊª§
+2016-03-23 13:10:48 [com.demo.web.filter.CharacterEncodingFilter:41] - ÈîÄÊØÅÂ≠óÁ¨¶ÈõÜËøáÊª§
+2016-03-23 13:10:48 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-23 13:10:48 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-23 13:10:48 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-23 13:10:48 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-23 13:10:49 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-23 13:10:49 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-23 13:10:49 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-23 13:10:49 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-23 13:10:49 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-23 13:10:49 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-23 13:10:49 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-23 13:10:49 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-23 13:10:49 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-23 13:10:49 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-23 13:10:49 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-23 13:10:49 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-23 13:10:49 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-23 13:10:49 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-23 13:10:49 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-23 13:10:49 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-23 13:10:49 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-23 13:10:50 [com.demo.job.city.CityToRedisJob:39] - ÊâßË°åÂ≠òÂÖ•ÂÆåÊàê
+2016-03-23 13:10:50 [com.demo.job.listener.ServerStartListener:25] - ÊúçÂä°Âô®ÂêØÂä®ÔºåÊâßË°åcity to redis jobÊàêÂäü
+2016-03-23 13:10:50 [com.demo.web.filter.CharacterEncodingFilter:70] - ÂàùÂßãÂåñÂ≠óÁ¨¶ÈõÜËøáÊª§
+2016-03-23 13:11:35 [com.demo.web.filter.CharacterEncodingFilter:41] - ÈîÄÊØÅÂ≠óÁ¨¶ÈõÜËøáÊª§
+2016-03-23 13:11:35 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-23 13:11:35 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-23 13:11:35 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-23 13:11:35 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-23 13:11:40 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-23 13:11:40 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-23 13:11:40 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-23 13:11:40 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-23 13:11:40 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-23 13:11:40 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-23 13:11:40 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-23 13:11:40 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-23 13:11:40 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-23 13:11:40 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-23 13:11:40 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-23 13:11:40 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-23 13:11:40 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-23 13:11:40 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-23 13:11:40 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-23 13:11:40 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-23 13:11:41 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-23 13:11:41 [com.demo.job.city.CityToRedisJob:39] - ÊâßË°åÂ≠òÂÖ•ÂÆåÊàê
+2016-03-23 13:11:41 [com.demo.job.listener.ServerStartListener:25] - ÊúçÂä°Âô®ÂêØÂä®ÔºåÊâßË°åcity to redis jobÊàêÂäü
+2016-03-23 13:11:41 [com.demo.web.filter.CharacterEncodingFilter:70] - ÂàùÂßãÂåñÂ≠óÁ¨¶ÈõÜËøáÊª§
+2016-03-23 13:11:52 [com.demo.web.filter.CharacterEncodingFilter:41] - ÈîÄÊØÅÂ≠óÁ¨¶ÈõÜËøáÊª§
+2016-03-23 13:11:52 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-23 13:11:52 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-23 13:11:52 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-23 13:11:52 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-23 13:11:56 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-23 13:11:56 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-23 13:11:56 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-23 13:11:56 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-23 13:11:56 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-23 13:11:56 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-23 13:11:56 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-23 13:11:56 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-23 13:11:56 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-23 13:11:56 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-23 13:11:56 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-23 13:11:56 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-23 13:11:56 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-23 13:11:56 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-23 13:11:56 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-23 13:11:56 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-23 13:11:56 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-23 13:11:57 [com.demo.job.city.CityToRedisJob:39] - ÊâßË°åÂ≠òÂÖ•ÂÆåÊàê
+2016-03-23 13:11:57 [com.demo.job.listener.ServerStartListener:25] - ÊúçÂä°Âô®ÂêØÂä®ÔºåÊâßË°åcity to redis jobÊàêÂäü
+2016-03-23 13:11:57 [com.demo.web.filter.CharacterEncodingFilter:70] - ÂàùÂßãÂåñÂ≠óÁ¨¶ÈõÜËøáÊª§
+2016-03-23 13:12:31 [com.demo.web.filter.CharacterEncodingFilter:41] - ÈîÄÊØÅÂ≠óÁ¨¶ÈõÜËøáÊª§
+2016-03-23 13:12:31 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-23 13:12:31 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-23 13:12:31 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-23 13:12:31 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-23 13:12:32 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-23 13:12:32 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-23 13:12:32 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-23 13:12:32 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-23 13:12:32 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-23 13:12:32 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-23 13:12:32 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-23 13:12:32 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-23 13:12:32 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-23 13:12:32 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-23 13:12:32 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-23 13:12:32 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-23 13:12:32 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-23 13:12:32 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-23 13:12:32 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-23 13:12:32 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-23 13:12:33 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-23 13:12:33 [com.demo.job.city.CityToRedisJob:39] - ÊâßË°åÂ≠òÂÖ•ÂÆåÊàê
+2016-03-23 13:12:33 [com.demo.job.listener.ServerStartListener:25] - ÊúçÂä°Âô®ÂêØÂä®ÔºåÊâßË°åcity to redis jobÊàêÂäü
+2016-03-23 13:12:33 [com.demo.web.filter.CharacterEncodingFilter:70] - ÂàùÂßãÂåñÂ≠óÁ¨¶ÈõÜËøáÊª§
+2016-03-23 13:13:09 [com.demo.web.filter.CharacterEncodingFilter:41] - ÈîÄÊØÅÂ≠óÁ¨¶ÈõÜËøáÊª§
+2016-03-23 13:13:09 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-23 13:13:09 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-23 13:13:09 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-23 13:13:09 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-23 13:13:12 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-23 13:13:12 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-23 13:13:12 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-23 13:13:12 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-23 13:13:12 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-23 13:13:12 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-23 13:13:12 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-23 13:13:12 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-23 13:13:12 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-23 13:13:12 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-23 13:13:12 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-23 13:13:12 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-23 13:13:12 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-23 13:13:12 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-23 13:13:12 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-23 13:13:12 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-23 13:13:12 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-23 13:13:13 [com.demo.job.city.CityToRedisJob:39] - ÊâßË°åÂ≠òÂÖ•ÂÆåÊàê
+2016-03-23 13:13:13 [com.demo.job.listener.ServerStartListener:25] - ÊúçÂä°Âô®ÂêØÂä®ÔºåÊâßË°åcity to redis jobÊàêÂäü
+2016-03-23 13:13:13 [com.demo.web.filter.CharacterEncodingFilter:70] - ÂàùÂßãÂåñÂ≠óÁ¨¶ÈõÜËøáÊª§
+2016-03-23 13:13:36 [com.demo.web.filter.CharacterEncodingFilter:41] - ÈîÄÊØÅÂ≠óÁ¨¶ÈõÜËøáÊª§
+2016-03-23 13:13:36 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-23 13:13:36 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-23 13:13:36 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-23 13:13:36 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-23 13:13:38 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-23 13:13:38 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-23 13:13:38 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-23 13:13:38 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-23 13:13:38 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-23 13:13:38 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-23 13:13:38 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-23 13:13:38 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-23 13:13:38 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-23 13:13:38 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-23 13:13:38 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-23 13:13:38 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-23 13:13:38 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-23 13:13:38 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-23 13:13:38 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-23 13:13:38 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-23 13:13:38 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-23 13:13:39 [com.demo.job.city.CityToRedisJob:39] - ÊâßË°åÂ≠òÂÖ•ÂÆåÊàê
+2016-03-23 13:13:39 [com.demo.job.listener.ServerStartListener:25] - ÊúçÂä°Âô®ÂêØÂä®ÔºåÊâßË°åcity to redis jobÊàêÂäü
+2016-03-23 13:13:39 [com.demo.web.filter.CharacterEncodingFilter:70] - ÂàùÂßãÂåñÂ≠óÁ¨¶ÈõÜËøáÊª§
+2016-03-23 13:13:39 [com.demo.web.filter.CharacterEncodingFilter:41] - ÈîÄÊØÅÂ≠óÁ¨¶ÈõÜËøáÊª§
+2016-03-23 13:13:39 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-23 13:13:39 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-23 13:13:39 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-23 13:13:39 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-23 13:13:41 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-23 13:13:41 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-23 13:13:41 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-23 13:13:41 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-23 13:13:41 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-23 13:13:41 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-23 13:13:41 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-23 13:13:41 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-23 13:13:41 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-23 13:13:41 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-23 13:13:41 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-23 13:13:41 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-23 13:13:41 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-23 13:13:41 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-23 13:13:41 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-23 13:13:41 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-23 13:13:41 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-23 13:13:42 [com.demo.job.city.CityToRedisJob:39] - ÊâßË°åÂ≠òÂÖ•ÂÆåÊàê
+2016-03-23 13:13:42 [com.demo.job.listener.ServerStartListener:25] - ÊúçÂä°Âô®ÂêØÂä®ÔºåÊâßË°åcity to redis jobÊàêÂäü
+2016-03-23 13:13:42 [com.demo.web.filter.CharacterEncodingFilter:70] - ÂàùÂßãÂåñÂ≠óÁ¨¶ÈõÜËøáÊª§
+2016-03-23 13:14:12 [com.demo.web.filter.CharacterEncodingFilter:41] - ÈîÄÊØÅÂ≠óÁ¨¶ÈõÜËøáÊª§
+2016-03-23 13:14:12 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-23 13:14:12 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-23 13:14:12 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-23 13:14:12 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-23 13:14:14 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-23 13:14:14 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-23 13:14:14 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-23 13:14:14 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-23 13:14:14 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-23 13:14:14 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-23 13:14:14 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-23 13:14:14 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-23 13:14:14 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-23 13:14:14 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-23 13:14:14 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-23 13:14:14 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-23 13:14:14 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-23 13:14:14 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-23 13:14:14 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-23 13:14:14 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-23 13:14:14 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-23 13:14:15 [com.demo.job.city.CityToRedisJob:39] - ÊâßË°åÂ≠òÂÖ•ÂÆåÊàê
+2016-03-23 13:14:15 [com.demo.job.listener.ServerStartListener:25] - ÊúçÂä°Âô®ÂêØÂä®ÔºåÊâßË°åcity to redis jobÊàêÂäü
+2016-03-23 13:14:15 [com.demo.web.filter.CharacterEncodingFilter:70] - ÂàùÂßãÂåñÂ≠óÁ¨¶ÈõÜËøáÊª§
+2016-03-23 13:15:23 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-23 13:15:23 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-23 13:15:23 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-23 13:15:23 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-23 13:15:23 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-23 13:15:23 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-23 13:15:23 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-23 13:15:23 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-23 13:15:23 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-23 13:15:23 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-23 13:15:23 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-23 13:15:23 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-23 13:15:23 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-23 13:15:23 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-23 13:15:23 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-23 13:15:23 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-23 13:15:24 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-23 13:15:26 [com.demo.job.city.CityToRedisJob:39] - ÊâßË°åÂ≠òÂÖ•ÂÆåÊàê
+2016-03-23 13:15:26 [com.demo.job.listener.ServerStartListener:25] - ÊúçÂä°Âô®ÂêØÂä®ÔºåÊâßË°åcity to redis jobÊàêÂäü
+2016-03-23 13:15:26 [com.demo.web.filter.CharacterEncodingFilter:70] - ÂàùÂßãÂåñÂ≠óÁ¨¶ÈõÜËøáÊª§
+2016-03-23 13:15:28 [com.demo.web.servlet.driver.DriverSignupServlet:29] - do get method start...
+2016-03-23 13:15:32 [com.demo.web.jsptag.JspTitleTag:27] - doTag ÂºÄÂßã
+2016-03-23 13:15:32 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 13:15:32 [com.demo.web.jsptag.JspTitleTag:37] - doTag ÁªìÊùü
+2016-03-23 13:15:32 [com.demo.web.servlet.driver.DriverSignupServlet:31] - do get method end...
+2016-03-23 13:15:32 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-23 13:15:32 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-23 13:15:32 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-23 13:15:32 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-23 13:15:33 [com.demo.web.jsptag.JspTitleTag:27] - doTag ÂºÄÂßã
+2016-03-23 13:15:33 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 13:15:33 [com.demo.web.jsptag.JspTitleTag:37] - doTag ÁªìÊùü
+2016-03-23 13:15:33 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-23 13:15:33 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=Âåó‰∫¨Â∏Ç]
+2016-03-23 13:15:59 [com.demo.rpc.service.impl.CaptchaRpcServiceImpl:28] - rest result=AjaxResult [code=200, msg=ÊàêÂäü, data={base64=data:image/jpg;base64,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, token=Dv55Mr}]
+2016-03-23 13:15:59 [com.demo.web.servlet.driver.DriverCaptchaServlet:47] - Driver È™åËØÅÁ†Å={base64=data:image/jpg;base64,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, token=Dv55Mr, alias=43d69ad877aa04b2b4c65f026fbca391}
+2016-03-23 13:16:09 [com.demo.rest.DriverRestService:115] - strEmail=13439827845ÔºåstrPassword=123456ÔºåstrDrivername=ËÆ∏Âø†‰∫Æ
+2016-03-23 13:16:09 [com.demo.rest.DriverRestService:125] - userSignup=Driver [id=null, name=ËÆ∏Âø†‰∫Æ, cell=13439827845, password=123456, actived=null, used=null, sfzA=http://www.lajiaoer.com/upload/image/driver/1458710145790.JPG, sfzB=http://www.lajiaoer.com/upload/image/driver/1458710150326.JPG, jszA=http://www.lajiaoer.com/upload/image/driver/1458710156652.JPG, driverPlaceId=null, createdTime=null, updatedTime=null]
+2016-03-23 13:16:09 [com.demo.rest.DriverRestService:130] - Ê≥®ÂÜåÊàêÂäüÔºåÂè∏Êú∫id=7
+2016-03-23 13:16:09 [com.demo.web.servlet.driver.DriverSignupSuccessServlet:29] - do get method start...
+2016-03-23 13:16:09 [com.demo.web.jsptag.JspTitleTag:27] - doTag ÂºÄÂßã
+2016-03-23 13:16:09 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 13:16:09 [com.demo.web.jsptag.JspTitleTag:37] - doTag ÁªìÊùü
+2016-03-23 13:16:09 [com.demo.web.jsptag.JspTitleTag:27] - doTag ÂºÄÂßã
+2016-03-23 13:16:09 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 13:16:09 [com.demo.web.jsptag.JspTitleTag:37] - doTag ÁªìÊùü
+2016-03-23 13:16:09 [com.demo.web.jsptag.JspTitleTag:27] - doTag ÂºÄÂßã
+2016-03-23 13:16:09 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 13:16:09 [com.demo.web.jsptag.JspTitleTag:37] - doTag ÁªìÊùü
+2016-03-23 13:16:09 [com.demo.web.servlet.driver.DriverSignupSuccessServlet:31] - do get method end...
+2016-03-23 13:16:09 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-23 13:16:09 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-23 13:16:09 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-23 13:16:09 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-23 13:16:09 [com.demo.web.jsptag.JspTitleTag:27] - doTag ÂºÄÂßã
+2016-03-23 13:16:10 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 13:16:10 [com.demo.web.jsptag.JspTitleTag:37] - doTag ÁªìÊùü
+2016-03-23 13:21:41 [com.demo.web.filter.CharacterEncodingFilter:41] - ÈîÄÊØÅÂ≠óÁ¨¶ÈõÜËøáÊª§
+2016-03-23 13:21:41 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-23 13:21:41 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-23 13:21:41 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-23 13:21:41 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-23 13:21:46 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-23 13:21:46 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-23 13:21:46 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-23 13:21:46 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-23 13:21:46 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-23 13:21:46 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-23 13:21:46 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-23 13:21:46 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-23 13:21:46 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-23 13:21:46 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-23 13:21:46 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-23 13:21:46 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-23 13:21:46 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-23 13:21:46 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-23 13:21:47 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-23 13:21:47 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-23 13:21:47 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-23 13:21:47 [com.demo.job.city.CityToRedisJob:39] - ÊâßË°åÂ≠òÂÖ•ÂÆåÊàê
+2016-03-23 13:21:47 [com.demo.job.listener.ServerStartListener:25] - ÊúçÂä°Âô®ÂêØÂä®ÔºåÊâßË°åcity to redis jobÊàêÂäü
+2016-03-23 13:21:47 [com.demo.web.filter.CharacterEncodingFilter:70] - ÂàùÂßãÂåñÂ≠óÁ¨¶ÈõÜËøáÊª§
+2016-03-23 13:35:24 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-23 13:35:24 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-23 13:35:24 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-23 13:35:24 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/favicon.ico
+2016-03-23 13:35:24 [com.demo.web.jsptag.JspTitleTag:27] - doTag ÂºÄÂßã
+2016-03-23 13:35:24 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 13:35:24 [com.demo.web.jsptag.JspTitleTag:37] - doTag ÁªìÊùü
+2016-03-23 13:35:24 [com.demo.web.servlet.driver.DriverLoginServlet:31] - ÁôªÂΩïËøõÂÖ•ÂºÄÂßã
+2016-03-23 13:35:25 [com.demo.web.jsptag.JspTitleTag:27] - doTag ÂºÄÂßã
+2016-03-23 13:35:25 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 13:35:25 [com.demo.web.jsptag.JspTitleTag:37] - doTag ÁªìÊùü
+2016-03-23 13:35:25 [com.demo.web.jsptag.JspTitleTag:27] - doTag ÂºÄÂßã
+2016-03-23 13:35:25 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 13:35:25 [com.demo.web.jsptag.JspTitleTag:37] - doTag ÁªìÊùü
+2016-03-23 13:35:25 [com.demo.web.jsptag.JspTitleTag:27] - doTag ÂºÄÂßã
+2016-03-23 13:35:25 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 13:35:25 [com.demo.web.jsptag.JspTitleTag:37] - doTag ÁªìÊùü
+2016-03-23 13:35:25 [com.demo.web.servlet.driver.DriverLoginServlet:37] - ÁôªÂΩïËøõÂÖ•ÁªìÊùü
+2016-03-23 13:35:28 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-23 13:35:28 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-23 13:35:28 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-23 13:35:28 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-23 13:35:28 [com.demo.web.jsptag.JspTitleTag:27] - doTag ÂºÄÂßã
+2016-03-23 13:35:28 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 13:35:28 [com.demo.web.jsptag.JspTitleTag:37] - doTag ÁªìÊùü
+2016-03-23 13:35:28 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-23 13:35:28 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=Âåó‰∫¨Â∏Ç]
+2016-03-23 13:35:37 [com.demo.rest.DriverRestService:214] - ÈîôËØØÂéüÂõ†ÔºöAjaxResult [code=10007, msg=Ë¥¶Âè∑Êú™ÊøÄÊ¥ª, data=null]ÔºåÈÇÆÁÆ±Ôºö13439827845
+2016-03-23 13:35:50 [com.demo.rest.DriverRestService:240] - Ê†°È™åÁôªÂΩïÁî®Êà∑ÁªìÊûúÔºöAjaxResult [code=200, msg=ÊàêÂäü, data=null]
+2016-03-23 13:35:50 [com.demo.web.servlet.driver.DriverLoginServlet:42] - ÁôªÂΩïÊèê‰∫§ÂºÄÂßã
+2016-03-23 13:35:50 [com.demo.web.servlet.driver.DriverLoginServlet:82] - ÁôªÂΩïÊèê‰∫§ÁªìÊùü
+2016-03-23 13:35:50 [com.demo.web.jsptag.JspTitleTag:27] - doTag ÂºÄÂßã
+2016-03-23 13:35:50 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 13:35:50 [com.demo.web.jsptag.JspTitleTag:37] - doTag ÁªìÊùü
+2016-03-23 13:35:51 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-23 13:35:51 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-23 13:35:51 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-23 13:35:51 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-23 13:35:51 [com.demo.web.jsptag.JspTitleTag:27] - doTag ÂºÄÂßã
+2016-03-23 13:35:51 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 13:35:51 [com.demo.web.jsptag.JspTitleTag:37] - doTag ÁªìÊùü
+2016-03-23 13:35:51 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-23 13:35:51 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=Âåó‰∫¨Â∏Ç]
+2016-03-23 13:36:41 [com.demo.web.filter.CharacterEncodingFilter:41] - ÈîÄÊØÅÂ≠óÁ¨¶ÈõÜËøáÊª§
+2016-03-23 13:36:41 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-23 13:36:41 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-23 13:36:41 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-23 13:36:41 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-23 13:36:44 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-23 13:36:44 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-23 13:36:44 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-23 13:36:44 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-23 13:36:44 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-23 13:36:44 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-23 13:36:44 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-23 13:36:44 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-23 13:36:44 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-23 13:36:44 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-23 13:36:44 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-23 13:36:44 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-23 13:36:44 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-23 13:36:44 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-23 13:36:44 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-23 13:36:44 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-23 13:36:45 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-23 13:36:46 [com.demo.job.city.CityToRedisJob:39] - ÊâßË°åÂ≠òÂÖ•ÂÆåÊàê
+2016-03-23 13:36:46 [com.demo.job.listener.ServerStartListener:25] - ÊúçÂä°Âô®ÂêØÂä®ÔºåÊâßË°åcity to redis jobÊàêÂäü
+2016-03-23 13:36:46 [com.demo.web.filter.CharacterEncodingFilter:70] - ÂàùÂßãÂåñÂ≠óÁ¨¶ÈõÜËøáÊª§
+2016-03-23 13:36:54 [com.demo.web.servlet.driver.DriverLogoutServlet:31] - Ê≥®ÈîÄÂºÄÂßã
+2016-03-23 13:36:54 [com.demo.utils.CookieUtils:121] - clear cookie f
+2016-03-23 13:36:54 [com.demo.utils.CookieUtils:121] - clear cookie k
+2016-03-23 13:36:54 [com.demo.service.builder.LogoutCookieBuilder:35] - logoutÊàêÂäüÔºåemail=aÔºåemailpwd=cÔºåcell=fÔºåcellpwd=k
+2016-03-23 13:36:54 [com.demo.web.servlet.driver.DriverLogoutServlet:53] - Ê≥®ÈîÄÁªìÊùü
+2016-03-23 13:36:55 [com.demo.web.jsptag.JspTitleTag:27] - doTag ÂºÄÂßã
+2016-03-23 13:36:55 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 13:36:55 [com.demo.web.jsptag.JspTitleTag:37] - doTag ÁªìÊùü
+2016-03-23 13:36:56 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-23 13:36:56 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-23 13:36:56 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-23 13:36:56 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-23 13:36:56 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-23 13:36:56 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=Âåó‰∫¨Â∏Ç]
+2016-03-23 13:36:56 [com.demo.web.jsptag.JspTitleTag:27] - doTag ÂºÄÂßã
+2016-03-23 13:36:56 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 13:36:56 [com.demo.web.jsptag.JspTitleTag:37] - doTag ÁªìÊùü
+2016-03-23 13:37:07 [com.demo.web.servlet.driver.DriverLoginServlet:31] - ÁôªÂΩïËøõÂÖ•ÂºÄÂßã
+2016-03-23 13:37:08 [com.demo.web.jsptag.JspTitleTag:27] - doTag ÂºÄÂßã
+2016-03-23 13:37:08 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 13:37:08 [com.demo.web.jsptag.JspTitleTag:37] - doTag ÁªìÊùü
+2016-03-23 13:37:08 [com.demo.web.jsptag.JspTitleTag:27] - doTag ÂºÄÂßã
+2016-03-23 13:37:08 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 13:37:08 [com.demo.web.jsptag.JspTitleTag:37] - doTag ÁªìÊùü
+2016-03-23 13:37:08 [com.demo.web.jsptag.JspTitleTag:27] - doTag ÂºÄÂßã
+2016-03-23 13:37:08 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 13:37:08 [com.demo.web.jsptag.JspTitleTag:37] - doTag ÁªìÊùü
+2016-03-23 13:37:08 [com.demo.web.servlet.driver.DriverLoginServlet:37] - ÁôªÂΩïËøõÂÖ•ÁªìÊùü
+2016-03-23 13:37:08 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-23 13:37:08 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-23 13:37:08 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-23 13:37:08 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-23 13:37:08 [com.demo.web.jsptag.JspTitleTag:27] - doTag ÂºÄÂßã
+2016-03-23 13:37:08 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 13:37:08 [com.demo.web.jsptag.JspTitleTag:37] - doTag ÁªìÊùü
+2016-03-23 13:37:08 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-23 13:37:08 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=Âåó‰∫¨Â∏Ç]
+2016-03-23 13:37:14 [com.demo.rest.DriverRestService:240] - Ê†°È™åÁôªÂΩïÁî®Êà∑ÁªìÊûúÔºöAjaxResult [code=200, msg=ÊàêÂäü, data=null]
+2016-03-23 13:37:14 [com.demo.web.servlet.driver.DriverLoginServlet:42] - ÁôªÂΩïÊèê‰∫§ÂºÄÂßã
+2016-03-23 13:37:14 [com.demo.web.servlet.driver.DriverLoginServlet:82] - ÁôªÂΩïÊèê‰∫§ÁªìÊùü
+2016-03-23 13:37:14 [com.demo.web.servlet.driver.DriverWaitingServlet:28] - do get method start...
+2016-03-23 13:37:14 [com.demo.web.jsptag.JspTitleTag:27] - doTag ÂºÄÂßã
+2016-03-23 13:37:14 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 13:37:14 [com.demo.web.jsptag.JspTitleTag:37] - doTag ÁªìÊùü
+2016-03-23 13:37:14 [com.demo.web.servlet.driver.DriverWaitingServlet:30] - do get method end...
+2016-03-23 13:37:15 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-23 13:37:15 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-23 13:37:15 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-23 13:37:15 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-23 13:37:15 [com.demo.web.jsptag.JspTitleTag:27] - doTag ÂºÄÂßã
+2016-03-23 13:37:15 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 13:37:15 [com.demo.web.jsptag.JspTitleTag:37] - doTag ÁªìÊùü
+2016-03-23 13:37:15 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-23 13:37:15 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=Âåó‰∫¨Â∏Ç]
+2016-03-23 13:37:15 [com.demo.rest.DriverWaitingRestService:79] - ÂèÇÊï∞ÈîôËØØÔºådriverId=7ÔºåÈîôËØØ‰ø°ÊÅØ=AjaxResult [code=10003, msg=Âè∏Êú∫Êó†Á≠âÂæÖ‰ø°ÊÅØ, data=null]
+2016-03-23 13:37:20 [com.demo.rest.DriverWaitingRestService:114] - ÂèÇÊï∞ÈîôËØØÔºådriver=Driver [id=7, name=ËÆ∏Âø†‰∫Æ, cell=13439827845, password=e10adc3949ba59abbe56e057f20f883e, actived=1, used=1, sfzA=http://www.lajiaoer.com/upload/image/driver/1458710145790.JPG, sfzB=http://www.lajiaoer.com/upload/image/driver/1458710150326.JPG, jszA=http://www.lajiaoer.com/upload/image/driver/1458710156652.JPG, driverPlaceId=null, createdTime=2016-03-23 13:16:09.0, updatedTime=2016-03-23 13:35:47.0]ÔºåÈîôËØØ‰ø°ÊÅØ=AjaxResult [code=10005, msg=ÊÇ®ÁöÑ‰ø°ÊÅØÊ≠£Âú®ÂÆ°Ê†∏‰∏≠, data=null]
+2016-03-23 13:38:02 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-23 13:38:02 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-23 13:38:02 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-23 13:38:02 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/favicon.ico
+2016-03-23 13:38:02 [com.demo.web.jsptag.JspTitleTag:27] - doTag ÂºÄÂßã
+2016-03-23 13:38:02 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 13:38:02 [com.demo.web.jsptag.JspTitleTag:37] - doTag ÁªìÊùü
+2016-03-23 13:38:02 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-23 13:38:02 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-23 13:38:02 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-23 13:38:02 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/favicon.ico
+2016-03-23 13:38:02 [com.demo.web.jsptag.JspTitleTag:27] - doTag ÂºÄÂßã
+2016-03-23 13:38:02 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 13:38:02 [com.demo.web.jsptag.JspTitleTag:37] - doTag ÁªìÊùü
+2016-03-23 13:38:06 [com.demo.web.jsptag.JspTitleTag:27] - doTag ÂºÄÂßã
+2016-03-23 13:38:06 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 13:38:06 [com.demo.web.jsptag.JspTitleTag:37] - doTag ÁªìÊùü
+2016-03-23 13:38:06 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-23 13:38:06 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=Âåó‰∫¨Â∏Ç]
+2016-03-23 13:38:18 [com.demo.web.jsptag.JspTitleTag:27] - doTag ÂºÄÂßã
+2016-03-23 13:38:18 [com.demo.web.jsptag.JspTitleTag:34] - doTag strPropTitle=*
+2016-03-23 13:38:18 [com.demo.web.jsptag.JspTitleTag:37] - doTag ÁªìÊùü
+2016-03-23 13:38:18 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-23 13:38:18 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=Âåó‰∫¨Â∏Ç]

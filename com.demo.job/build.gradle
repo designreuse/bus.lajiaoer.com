@@ -1,0 +1,7 @@
+apply plugin: 'eclipse'
+dependencies {
+	compile project(':com.demo.model'), project(':com.demo.utils'), project(':com.demo.service')
+	compile 'org.quartz-scheduler:quartz:2.2.2'
+	compile 'org.quartz-scheduler:quartz-jobs:2.2.2'
+	compile 'javax.transaction:jta:1.1'
+}

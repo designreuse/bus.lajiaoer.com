@@ -1,0 +1,1596 @@
+2016-04-14 13:44:18 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-04-14 13:44:18 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-04-14 13:44:18 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-04-14 13:44:18 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-04-14 13:44:18 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-04-14 13:44:18 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-04-14 13:44:18 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-14 13:44:18 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-04-14 13:44:18 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-04-14 13:44:18 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-04-14 13:44:18 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-04-14 13:44:18 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-04-14 13:44:18 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-04-14 13:44:18 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-04-14 13:44:18 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-04-14 13:44:18 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-04-14 13:44:22 [com.demo.job.city.CityToRedisJob:39] - 执行存入完成
+2016-04-14 13:44:22 [com.demo.job.listener.ServerStartListener:25] - 服务器启动，执行city to redis job成功
+2016-04-14 13:44:22 [com.demo.web.filter.CharacterEncodingFilter:70] - 初始化字符集过滤
+2016-04-14 13:52:57 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 13:53:00 [com.demo.web.servlet.driver.DriverSignupEditServlet:66] - do get method end...
+2016-04-14 13:53:00 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:53:00 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:53:00 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:53:00 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 13:53:00 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:53:00 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:53:00 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:53:00 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 13:53:00 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:53:00 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:53:00 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:53:00 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 13:53:00 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:53:00 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:53:00 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:53:00 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 13:53:01 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 13:53:01 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 13:56:15 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:56:15 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:56:15 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:56:15 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/favicon.ico
+2016-04-14 13:56:22 [com.demo.web.servlet.admin.AdminMainServlet:28] - 用户信息，user=User [id=1, name=admin, realName=系统管理员, password=e10adc3949ba59abbe56e057f20f883e, enabled=1, createdTime=Tue Mar 29 14:19:12 CST 2016, updatedTime=2016-03-29 14:19:12.0]
+2016-04-14 13:56:24 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:56:24 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:56:24 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:56:24 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/favicon.ico
+2016-04-14 13:56:26 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:56:26 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:56:26 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:56:26 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:56:26 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:56:26 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:56:26 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:56:26 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:56:26 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:56:26 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 13:56:26 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 13:56:26 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 13:56:29 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:56:29 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:56:29 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:56:29 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:56:29 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:56:29 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:56:29 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:56:29 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:56:29 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:56:29 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 13:56:29 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:56:29 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:56:29 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 13:56:29 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:56:29 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 13:56:29 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 13:56:54 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 13:56:54 [com.demo.web.servlet.driver.DriverSignupEditServlet:66] - do get method end...
+2016-04-14 13:56:54 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:56:54 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:56:54 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:56:54 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 13:56:54 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:56:54 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:56:54 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:56:54 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 13:56:54 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:56:54 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:56:54 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:56:54 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:56:54 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 13:56:54 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:56:54 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:56:54 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 13:56:54 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 13:56:54 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 13:57:09 [com.demo.rest.front.DriverRestService:307] - 修改司机信息注册成功
+2016-04-14 13:57:09 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 13:57:09 [com.demo.web.servlet.driver.DriverSignupEditServlet:66] - do get method end...
+2016-04-14 13:57:09 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:57:09 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:57:09 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:57:09 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 13:57:09 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:57:09 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:57:09 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:57:09 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 13:57:09 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:57:09 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:57:09 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:57:09 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 13:57:09 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:57:09 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:57:09 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:57:09 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 13:57:09 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 13:57:09 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 13:57:16 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:57:16 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:57:16 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:57:16 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:57:16 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:57:16 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:57:16 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:57:16 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:57:16 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:57:16 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:57:16 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:57:16 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:57:16 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 13:57:16 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 13:57:16 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 13:57:16 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 13:57:24 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 13:57:24 [com.demo.web.servlet.driver.DriverSignupEditServlet:66] - do get method end...
+2016-04-14 13:57:24 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:57:24 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:57:24 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:57:24 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 13:57:24 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:57:24 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:57:24 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:57:24 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:57:24 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 13:57:24 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:57:24 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:57:24 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:57:24 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:57:24 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 13:57:24 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:57:24 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 13:57:24 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 13:57:24 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 13:58:46 [com.demo.rest.front.DriverRestService:307] - 修改司机信息注册成功
+2016-04-14 13:58:46 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 13:58:46 [com.demo.web.servlet.driver.DriverSignupEditServlet:66] - do get method end...
+2016-04-14 13:58:46 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:46 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:46 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:46 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 13:58:46 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:46 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:46 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:46 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 13:58:46 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:46 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:46 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:46 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 13:58:46 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:46 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:46 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:46 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 13:58:46 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 13:58:46 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 13:58:49 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:49 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:49 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:49 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 13:58:49 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:49 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:49 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:49 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 13:58:49 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:49 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:49 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:49 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:49 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 13:58:49 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:49 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:49 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 13:56:44 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:56:44 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:56:44 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:56:44 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 13:56:44 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:56:44 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:56:44 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:56:44 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:56:44 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:56:44 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:56:44 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:56:44 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:56:44 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:56:44 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 13:56:44 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 13:56:44 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 13:56:49 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:56:49 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:56:49 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:56:49 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:56:49 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:56:49 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:56:49 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:56:49 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:56:49 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:56:49 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:56:49 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 13:56:49 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:56:49 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 13:56:49 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 13:56:49 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:56:49 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 13:56:53 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:56:53 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:56:53 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:56:53 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:56:53 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:56:53 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:56:53 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:56:53 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:56:53 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:56:53 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:56:53 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:56:53 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:56:53 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 13:56:53 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 13:56:53 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 13:56:53 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 13:56:55 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:56:55 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:56:55 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:56:55 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:56:55 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:56:55 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:56:55 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:56:55 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:56:55 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:56:55 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:56:55 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 13:56:55 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 13:56:55 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:56:55 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 13:56:55 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:56:55 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 13:57:03 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:57:03 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:57:03 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:57:03 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:57:03 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:57:03 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:57:03 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:57:03 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:57:03 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:57:03 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:57:03 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:57:03 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:57:03 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 13:57:03 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 13:57:03 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 13:57:03 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 13:57:44 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:57:44 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:57:44 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:57:44 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:57:44 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:57:44 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:57:44 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:57:44 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:57:44 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:57:44 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:57:44 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:57:44 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 13:57:44 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:57:44 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 13:57:44 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 13:57:44 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 13:58:04 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:04 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:04 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:04 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:04 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:04 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:04 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 13:58:04 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:04 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:04 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:04 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 13:58:04 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:04 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:04 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 13:58:04 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:04 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 13:58:12 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:12 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:12 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:12 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:12 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:12 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:12 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:12 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:12 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:12 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:12 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 13:58:12 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 13:58:12 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 13:58:12 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:12 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:12 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 13:58:18 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:18 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:18 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:18 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:18 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:18 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:18 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:18 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:18 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:18 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:18 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 13:58:18 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:18 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:18 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 13:58:18 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 13:58:18 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 13:58:25 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:25 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:25 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:25 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:25 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:25 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:25 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:25 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:25 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 13:58:25 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 13:58:25 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:25 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:25 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 13:58:25 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:25 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:25 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 13:58:31 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:31 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:31 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:31 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:31 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:31 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:31 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:31 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:31 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:31 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:31 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:31 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 13:58:31 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:31 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 13:58:31 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 13:58:31 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 13:58:33 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:33 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:33 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:33 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:33 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:33 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:33 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:33 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:33 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:33 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:33 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:33 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:33 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 13:58:33 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 13:58:33 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 13:58:33 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 13:58:34 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:34 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:34 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:34 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:34 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:34 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:34 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:34 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:34 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:34 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:34 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:34 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:34 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 13:58:34 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 13:58:34 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 13:58:34 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 13:58:35 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:35 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:35 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:35 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:35 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:35 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:35 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:35 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:35 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:35 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:35 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:35 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:35 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 13:58:35 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 13:58:35 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 13:58:35 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 13:58:42 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:42 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:42 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:42 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:42 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:42 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:42 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:42 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:42 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:42 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:42 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:42 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:42 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 13:58:42 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 13:58:42 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 13:58:42 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 13:58:44 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:44 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:44 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:44 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:58:44 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:44 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:44 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:44 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:58:44 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:44 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:44 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:44 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:58:44 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 13:58:44 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 13:58:44 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 13:58:44 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 13:59:07 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:59:07 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:59:07 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:59:07 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:59:07 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:59:07 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:59:07 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:59:07 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:59:07 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:59:07 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:59:07 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:59:07 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:59:07 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 13:59:07 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 13:59:07 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 13:59:07 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 13:59:22 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:59:22 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:59:22 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:59:22 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 13:59:22 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:59:22 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:59:22 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:59:22 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:59:22 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:59:22 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:59:22 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 13:59:22 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 13:59:22 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 13:59:22 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 13:59:22 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 13:59:22 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:03:44 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:03:44 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:03:44 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:03:44 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 14:03:44 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:03:44 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:03:44 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:03:44 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:03:44 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:03:44 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:03:44 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:03:44 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:03:44 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:03:44 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:03:44 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:03:44 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:04:06 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:04:06 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:04:06 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:04:06 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:04:06 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:04:06 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:04:06 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:04:06 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:04:06 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:04:06 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:04:06 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:04:06 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:04:06 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:04:06 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:04:06 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:04:06 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 14:12:48 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:12:48 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:12:48 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:12:48 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 14:12:48 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:12:48 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:12:48 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:12:48 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:12:48 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:12:48 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:12:48 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:12:48 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:12:48 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:12:48 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:12:48 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:12:48 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:12:52 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:12:52 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:12:52 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:12:52 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:12:52 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:12:52 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:12:52 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:12:52 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:12:57 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:12:57 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:12:57 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:12:57 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:12:57 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:12:57 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:12:57 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:12:57 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:12:57 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:12:57 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:12:57 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:12:57 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:12:57 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:12:57 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:12:57 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:12:57 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:12:57 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:12:57 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:12:57 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 14:12:57 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:12:57 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:12:57 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:12:57 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:12:57 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:13:36 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:13:36 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:13:36 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:13:36 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:13:36 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:13:36 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:13:36 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:13:36 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:13:36 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:13:36 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:13:36 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:13:36 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 14:13:36 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:13:36 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:13:36 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:13:36 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:13:36 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:13:36 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:13:36 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:13:36 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:13:36 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:13:36 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:13:36 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:13:36 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:13:43 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:13:43 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:13:43 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:13:43 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:13:43 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:13:43 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:13:43 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:13:43 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:13:43 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:13:43 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 14:13:43 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:13:43 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:13:43 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:13:43 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:13:43 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:13:43 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:13:43 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:13:43 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:13:43 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:13:43 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:13:43 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:13:43 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:13:43 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:13:43 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:15:07 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:15:07 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:15:07 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:15:07 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:15:07 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:15:07 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:15:07 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:15:07 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 14:15:07 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:15:07 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:15:07 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:15:07 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:15:07 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:15:07 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:15:07 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:15:07 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:15:07 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:15:07 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:15:07 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:15:07 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:15:07 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:15:07 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:15:07 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:15:07 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:15:48 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 14:15:48 [com.demo.web.servlet.driver.DriverSignupEditServlet:66] - do get method end...
+2016-04-14 14:15:48 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:15:48 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:15:48 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:15:48 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447222756.jpg
+2016-04-14 14:15:48 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:15:48 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:15:48 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:15:48 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:15:48 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:15:48 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:15:48 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:15:48 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:15:48 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:15:48 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:15:48 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:15:48 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:15:49 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 14:15:49 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 14:11:42 [com.demo.rest.front.DriverRestService:307] - 修改司机信息注册成功
+2016-04-14 14:11:42 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 14:11:42 [com.demo.web.servlet.driver.DriverSignupEditServlet:66] - do get method end...
+2016-04-14 14:11:42 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:11:42 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:11:42 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:11:42 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:11:42 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:11:42 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:11:42 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:11:42 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:11:42 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:11:42 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:11:42 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:11:42 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:11:42 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 14:11:42 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 14:11:46 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:11:46 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:11:46 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:11:46 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:11:46 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:11:46 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:11:46 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:11:46 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:11:46 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:11:46 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:11:46 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:11:46 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:11:46 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:11:46 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:11:46 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:11:46 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:11:46 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:11:46 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:11:46 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:11:46 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:13:51 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:13:51 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:13:51 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:13:51 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:13:51 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:13:51 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:13:51 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:13:51 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:13:51 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:13:51 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:13:51 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:13:51 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:13:51 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:13:51 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:13:51 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:13:51 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:13:51 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:13:51 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:13:51 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:13:51 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:13:53 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:13:53 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:13:53 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:13:53 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:13:53 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:13:53 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:13:53 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:13:53 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:13:53 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:13:53 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:13:53 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:13:53 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:13:53 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:13:53 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:13:53 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:13:53 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:13:53 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:13:53 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:13:53 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:13:53 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:13:55 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:13:55 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:13:55 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:13:55 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:13:55 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:13:55 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:13:55 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:13:55 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:13:55 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:13:55 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:13:55 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:13:55 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:13:55 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:13:55 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:13:55 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:13:55 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:13:55 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:13:55 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:13:55 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:13:55 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:13:59 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:13:59 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:13:59 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:13:59 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:13:59 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:13:59 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:13:59 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:13:59 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:13:59 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:13:59 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:13:59 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:13:59 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:13:59 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:13:59 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:13:59 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:13:59 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:13:59 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:13:59 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:13:59 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:13:59 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:14:02 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:02 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:02 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:02 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:14:02 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:02 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:02 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:02 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:02 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:02 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:02 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:02 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:02 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:02 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:14:02 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:14:02 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:14:02 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:02 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:02 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:02 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:14:02 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:02 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:02 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:02 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:14:02 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:02 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:02 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:02 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:14:03 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:03 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:03 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:03 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:03 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:03 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:03 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:03 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:14:03 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:03 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:03 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:14:03 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:14:03 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:03 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:03 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:03 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:14:03 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:03 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:03 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:03 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:03 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:03 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:03 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:03 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:03 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:03 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:14:03 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:14:03 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:14:03 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:03 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:03 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:03 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:14:04 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:04 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:04 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:04 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:14:04 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:04 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:04 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:04 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:04 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:04 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:04 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:04 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:14:04 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:04 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:14:04 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:04 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:14:04 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:04 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:04 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:04 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:14:05 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:05 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:05 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:05 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:14:05 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:05 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:05 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:05 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:14:05 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:05 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:05 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:05 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:05 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:05 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:05 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:05 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:05 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:14:05 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:05 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:14:05 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:14:05 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:05 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:05 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:05 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:06 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:14:08 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:08 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:08 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:08 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:14:08 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:08 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:08 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:08 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:08 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:08 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:08 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:08 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:08 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:08 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:14:08 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:14:08 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:14:08 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:08 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:08 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:08 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:14:09 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:09 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:09 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:09 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:14:09 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:09 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:09 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:09 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:09 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:09 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:09 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:09 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:14:09 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:09 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:09 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:14:09 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:14:09 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:09 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:09 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:09 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:14:25 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:25 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:25 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:25 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:14:25 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:25 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:25 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:25 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:25 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:25 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:25 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:25 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:25 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:25 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:14:25 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:14:25 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:14:25 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:25 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:25 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:25 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:14:30 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:30 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:30 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:30 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:14:30 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:30 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:30 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:30 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:30 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:30 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:30 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:30 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:30 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:14:30 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:30 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:14:30 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:14:30 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:30 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:30 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:30 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:14:32 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:32 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:32 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:32 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:14:32 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:32 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:32 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:32 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:32 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:32 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:32 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:32 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:32 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:32 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:14:32 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:14:32 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:14:32 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:32 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:32 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:32 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:14:34 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:34 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:34 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:34 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:14:34 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:34 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:34 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:34 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:34 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:34 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:34 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:34 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:34 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:14:34 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:34 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:14:34 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:14:34 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:34 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:34 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:34 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:14:35 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:35 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:35 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:35 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:14:36 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:36 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:36 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:36 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:36 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:36 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:36 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:36 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:36 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:36 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:14:36 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:14:36 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:14:36 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:36 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:36 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:36 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:14:37 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:37 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:37 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:37 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:14:37 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:37 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:37 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:37 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:37 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:37 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:37 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:37 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:37 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:37 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:14:37 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:14:37 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:14:37 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:37 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:37 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:37 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:14:40 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:40 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:40 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:40 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:14:40 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:40 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:40 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:40 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:14:40 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:40 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:40 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:40 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:14:40 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:40 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:40 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:40 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:14:40 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:14:40 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:14:40 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:14:40 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:16:15 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:16:15 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:16:15 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:16:15 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:16:15 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:16:15 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:16:15 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:16:15 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:16:15 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:16:15 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:16:15 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:16:15 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:16:15 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:16:15 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:16:15 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:16:15 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:16:15 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:16:15 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:16:15 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:16:15 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:16:20 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:16:20 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:16:20 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:16:20 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:16:20 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:16:20 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:16:20 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:16:20 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:16:20 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:16:20 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:16:20 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:16:20 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:16:23 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:16:23 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:16:23 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:16:23 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:16:23 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:16:23 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:16:23 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:16:23 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:16:23 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:16:23 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:16:23 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:16:23 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:17:00 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:17:00 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:17:00 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:17:00 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:17:01 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:17:01 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:17:01 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:17:01 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:17:01 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:17:01 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:17:01 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:17:01 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:17:01 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:17:01 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:17:01 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:17:01 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:17:01 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:17:01 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:17:01 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:17:01 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:17:03 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 14:17:03 [com.demo.web.servlet.driver.DriverSignupEditServlet:66] - do get method end...
+2016-04-14 14:17:03 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:17:03 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:17:03 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:17:03 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447225135.jpg
+2016-04-14 14:17:03 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:17:03 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:17:03 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:17:03 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:17:03 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:17:03 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:17:03 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447227720.jpg
+2016-04-14 14:17:03 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1460447230380.jpg
+2016-04-14 14:17:04 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 14:17:04 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 14:18:35 [com.demo.rest.front.DriverRestService:307] - 修改司机信息注册成功
+2016-04-14 14:18:35 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 14:18:35 [com.demo.web.servlet.driver.DriverSignupEditServlet:66] - do get method end...
+2016-04-14 14:18:35 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 14:18:35 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 14:18:41 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:18:41 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:18:41 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:18:41 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:18:41 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:18:41 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:18:41 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:18:41 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:18:44 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:18:44 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:18:44 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:18:44 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:18:45 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:18:45 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:18:45 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:18:45 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:18:46 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:18:46 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:18:46 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:18:46 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:18:46 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:18:46 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:18:46 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:18:46 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:20:22 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:20:22 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:20:22 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:20:22 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:20:22 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:20:22 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:20:22 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:20:22 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:21:09 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:21:09 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:21:09 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:21:09 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 14:21:09 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 14:21:09 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 14:21:09 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 14:21:09 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-04-14 14:21:40 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 14:21:40 [com.demo.web.servlet.driver.DriverSignupEditServlet:66] - do get method end...
+2016-04-14 14:21:40 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 14:21:40 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 14:54:35 [com.demo.web.filter.CharacterEncodingFilter:41] - 销毁字符集过滤
+2016-04-14 14:54:35 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-04-14 14:54:35 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-04-14 14:54:35 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-04-14 14:54:35 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-04-14 14:54:37 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-04-14 14:54:37 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-04-14 14:54:37 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-04-14 14:54:37 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-04-14 14:54:37 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-04-14 14:54:37 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-04-14 14:54:37 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-14 14:54:37 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-04-14 14:54:37 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-04-14 14:54:37 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-04-14 14:54:37 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-04-14 14:54:37 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-04-14 14:54:37 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-04-14 14:54:37 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-04-14 14:54:37 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-04-14 14:54:37 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-04-14 14:54:38 [com.demo.job.city.CityToRedisJob:39] - 执行存入完成
+2016-04-14 14:54:38 [com.demo.job.listener.ServerStartListener:25] - 服务器启动，执行city to redis job成功
+2016-04-14 14:54:38 [com.demo.web.filter.CharacterEncodingFilter:70] - 初始化字符集过滤
+2016-04-14 14:59:15 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 14:59:17 [com.demo.web.servlet.driver.DriverSignupEditServlet:70] - do get method end...
+2016-04-14 14:59:17 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 14:59:17 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:00:59 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:00:59 [com.demo.web.servlet.driver.DriverSignupEditServlet:70] - do get method end...
+2016-04-14 15:00:59 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:00:59 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:01:30 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:01:44 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:01:44 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:01:46 [com.demo.web.servlet.driver.DriverSignupEditServlet:70] - do get method end...
+2016-04-14 15:02:09 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:02:11 [com.demo.web.servlet.driver.DriverSignupEditServlet:70] - do get method end...
+2016-04-14 15:02:11 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:02:11 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:02:14 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:02:14 [com.demo.web.servlet.driver.DriverSignupEditServlet:70] - do get method end...
+2016-04-14 15:02:14 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:02:14 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:02:15 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:02:15 [com.demo.web.servlet.driver.DriverSignupEditServlet:70] - do get method end...
+2016-04-14 15:02:15 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:02:15 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:02:16 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:02:16 [com.demo.web.servlet.driver.DriverSignupEditServlet:70] - do get method end...
+2016-04-14 15:02:17 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:02:17 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:02:18 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:02:18 [com.demo.web.servlet.driver.DriverSignupEditServlet:70] - do get method end...
+2016-04-14 15:02:18 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:02:18 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:02:19 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:02:19 [com.demo.web.servlet.driver.DriverSignupEditServlet:70] - do get method end...
+2016-04-14 15:02:19 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:02:19 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:02:33 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:02:33 [com.demo.web.servlet.driver.DriverSignupEditServlet:70] - do get method end...
+2016-04-14 15:02:33 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:02:33 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:02:34 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:02:34 [com.demo.web.servlet.driver.DriverSignupEditServlet:70] - do get method end...
+2016-04-14 15:02:35 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:02:35 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:02:35 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:02:35 [com.demo.web.servlet.driver.DriverSignupEditServlet:70] - do get method end...
+2016-04-14 15:02:36 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:02:36 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:02:36 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:02:36 [com.demo.web.servlet.driver.DriverSignupEditServlet:70] - do get method end...
+2016-04-14 15:02:36 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:02:36 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:02:36 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:02:36 [com.demo.web.servlet.driver.DriverSignupEditServlet:70] - do get method end...
+2016-04-14 15:02:36 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:02:36 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:02:36 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:02:36 [com.demo.web.servlet.driver.DriverSignupEditServlet:70] - do get method end...
+2016-04-14 15:02:37 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:02:37 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:02:37 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:02:37 [com.demo.web.servlet.driver.DriverSignupEditServlet:70] - do get method end...
+2016-04-14 15:02:37 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:02:37 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:02:37 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:02:37 [com.demo.web.servlet.driver.DriverSignupEditServlet:70] - do get method end...
+2016-04-14 15:02:37 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:02:37 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:02:37 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:02:37 [com.demo.web.servlet.driver.DriverSignupEditServlet:70] - do get method end...
+2016-04-14 15:02:37 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:02:37 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:02:40 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:02:40 [com.demo.web.servlet.driver.DriverSignupEditServlet:70] - do get method end...
+2016-04-14 15:02:40 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:02:40 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:02:42 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:02:42 [com.demo.web.servlet.driver.DriverSignupEditServlet:70] - do get method end...
+2016-04-14 15:02:42 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:02:42 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:02:43 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:02:43 [com.demo.web.servlet.driver.DriverSignupEditServlet:70] - do get method end...
+2016-04-14 15:02:43 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:02:43 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:03:42 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:03:42 [com.demo.web.servlet.driver.DriverSignupEditServlet:70] - do get method end...
+2016-04-14 15:03:42 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:03:43 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:03:44 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:03:44 [com.demo.web.servlet.driver.DriverSignupEditServlet:70] - do get method end...
+2016-04-14 15:03:44 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:03:44 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:04:14 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-04-14 15:04:14 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-04-14 15:04:14 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-04-14 15:04:14 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-04-14 15:04:14 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-04-14 15:04:14 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-04-14 15:04:14 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-14 15:04:14 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-04-14 15:04:14 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-04-14 15:04:14 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-04-14 15:04:14 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-04-14 15:04:14 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-04-14 15:04:14 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-04-14 15:04:14 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-04-14 15:04:14 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-04-14 15:04:14 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-04-14 15:04:17 [com.demo.job.city.CityToRedisJob:39] - 执行存入完成
+2016-04-14 15:04:17 [com.demo.job.listener.ServerStartListener:25] - 服务器启动，执行city to redis job成功
+2016-04-14 15:04:17 [com.demo.web.filter.CharacterEncodingFilter:70] - 初始化字符集过滤
+2016-04-14 15:04:21 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:04:24 [com.demo.web.servlet.driver.DriverSignupEditServlet:72] - do get method end...
+2016-04-14 15:04:25 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:04:25 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:03:39 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:03:41 [com.demo.web.servlet.driver.DriverSignupEditServlet:72] - do get method end...
+2016-04-14 15:03:41 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:03:41 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:03:45 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:03:45 [com.demo.web.servlet.driver.DriverSignupEditServlet:72] - do get method end...
+2016-04-14 15:03:45 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:03:45 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:03:46 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:03:46 [com.demo.web.servlet.driver.DriverSignupEditServlet:72] - do get method end...
+2016-04-14 15:03:46 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:03:46 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:03:47 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:03:47 [com.demo.web.servlet.driver.DriverSignupEditServlet:72] - do get method end...
+2016-04-14 15:03:47 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:03:47 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:03:48 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:03:48 [com.demo.web.servlet.driver.DriverSignupEditServlet:72] - do get method end...
+2016-04-14 15:03:48 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:03:48 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:03:49 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:03:49 [com.demo.web.servlet.driver.DriverSignupEditServlet:72] - do get method end...
+2016-04-14 15:03:49 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:03:49 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:04:17 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:04:17 [com.demo.web.servlet.driver.DriverSignupEditServlet:72] - do get method end...
+2016-04-14 15:04:17 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:04:17 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:04:18 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:04:18 [com.demo.web.servlet.driver.DriverSignupEditServlet:72] - do get method end...
+2016-04-14 15:04:19 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:04:19 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:04:20 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:04:20 [com.demo.web.servlet.driver.DriverSignupEditServlet:72] - do get method end...
+2016-04-14 15:04:20 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:04:20 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:04:21 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:04:21 [com.demo.web.servlet.driver.DriverSignupEditServlet:72] - do get method end...
+2016-04-14 15:04:21 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:04:21 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:04:48 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 15:04:48 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 15:04:48 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 15:04:48 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 15:05:01 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:05:01 [com.demo.web.servlet.driver.DriverSignupEditServlet:72] - do get method end...
+2016-04-14 15:05:01 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 15:05:01 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 15:05:01 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 15:05:01 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 15:05:01 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:05:01 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:05:04 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:05:04 [com.demo.web.servlet.driver.DriverSignupEditServlet:72] - do get method end...
+2016-04-14 15:05:04 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 15:05:04 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 15:05:04 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 15:05:04 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 15:05:04 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:05:04 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:05:05 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:05:05 [com.demo.web.servlet.driver.DriverSignupEditServlet:72] - do get method end...
+2016-04-14 15:05:05 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 15:05:05 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 15:05:05 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 15:05:05 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 15:05:05 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:05:05 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:05:15 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:05:15 [com.demo.web.servlet.driver.DriverSignupEditServlet:72] - do get method end...
+2016-04-14 15:05:16 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 15:05:16 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 15:05:16 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 15:05:16 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 15:05:16 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:05:16 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:05:17 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:05:17 [com.demo.web.servlet.driver.DriverSignupEditServlet:72] - do get method end...
+2016-04-14 15:05:17 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 15:05:17 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 15:05:17 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 15:05:17 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 15:05:17 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:05:17 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:05:18 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:05:18 [com.demo.web.servlet.driver.DriverSignupEditServlet:72] - do get method end...
+2016-04-14 15:05:18 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 15:05:18 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 15:05:18 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 15:05:18 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 15:05:18 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:05:18 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:05:19 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:05:19 [com.demo.web.servlet.driver.DriverSignupEditServlet:72] - do get method end...
+2016-04-14 15:05:20 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 15:05:20 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 15:05:20 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 15:05:20 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 15:05:20 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:05:20 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:05:21 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:05:21 [com.demo.web.servlet.driver.DriverSignupEditServlet:72] - do get method end...
+2016-04-14 15:05:21 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 15:05:21 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 15:05:21 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 15:05:21 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 15:05:21 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:05:21 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:05:22 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:05:22 [com.demo.web.servlet.driver.DriverSignupEditServlet:72] - do get method end...
+2016-04-14 15:05:22 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 15:05:22 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 15:05:22 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 15:05:22 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 15:05:22 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:05:22 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:05:23 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:05:23 [com.demo.web.servlet.driver.DriverSignupEditServlet:72] - do get method end...
+2016-04-14 15:05:23 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 15:05:23 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 15:05:23 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 15:05:23 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 15:05:23 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:05:23 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:05:54 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-04-14 15:05:54 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-04-14 15:05:54 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-04-14 15:05:54 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-04-14 15:05:54 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-04-14 15:05:54 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-04-14 15:05:54 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-14 15:05:54 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-04-14 15:05:54 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-04-14 15:05:54 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-04-14 15:05:54 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-04-14 15:05:54 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-04-14 15:05:54 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-04-14 15:05:54 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-04-14 15:05:54 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-04-14 15:05:54 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-04-14 15:05:57 [com.demo.job.city.CityToRedisJob:39] - 执行存入完成
+2016-04-14 15:05:57 [com.demo.job.listener.ServerStartListener:25] - 服务器启动，执行city to redis job成功
+2016-04-14 15:05:57 [com.demo.web.filter.CharacterEncodingFilter:70] - 初始化字符集过滤
+2016-04-14 15:06:00 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:06:03 [com.demo.web.servlet.driver.DriverSignupEditServlet:72] - do get method end...
+2016-04-14 15:06:03 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 15:06:03 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 15:06:03 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 15:06:03 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 15:06:04 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:06:04 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:12:13 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:12:15 [com.demo.web.servlet.driver.DriverSignupEditServlet:72] - do get method end...
+2016-04-14 15:12:15 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 15:12:15 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 15:12:15 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 15:12:15 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 15:12:16 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:12:16 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:15:26 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:15:27 [com.demo.web.servlet.driver.DriverSignupEditServlet:72] - do get method end...
+2016-04-14 15:15:28 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 15:15:28 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 15:15:28 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 15:15:28 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 15:15:28 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:15:28 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:16:49 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:16:50 [com.demo.web.servlet.driver.DriverSignupEditServlet:72] - do get method end...
+2016-04-14 15:16:51 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 15:16:51 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 15:16:51 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 15:16:51 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 15:16:51 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:16:51 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:20:17 [com.demo.web.servlet.driver.DriverLoginServlet:40] - 登录进入开始
+2016-04-14 15:20:17 [com.demo.web.servlet.driver.DriverLoginServlet:46] - 登录进入结束
+2016-04-14 15:20:18 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 15:20:18 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 15:20:18 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 15:20:18 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 15:20:18 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:20:18 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:20:28 [com.demo.rest.front.DriverRestService:421] - 校验登录用户结果：AjaxResult [code=200, msg=成功, data=null]
+2016-04-14 15:20:28 [com.demo.web.servlet.driver.DriverLoginServlet:51] - 登录提交开始
+2016-04-14 15:20:28 [com.demo.web.servlet.driver.DriverSignupEditServlet:48] - do get method start...
+2016-04-14 15:20:28 [com.demo.web.servlet.driver.DriverSignupEditServlet:72] - do get method end...
+2016-04-14 15:20:28 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 15:20:28 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 15:20:28 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 15:20:28 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 15:20:28 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:20:28 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:20:33 [com.demo.web.servlet.driver.DriverLoginServlet:40] - 登录进入开始
+2016-04-14 15:20:33 [com.demo.web.servlet.driver.DriverLoginServlet:46] - 登录进入结束
+2016-04-14 15:20:33 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 15:20:33 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 15:20:33 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 15:20:33 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 15:20:33 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:20:33 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:20:48 [com.demo.rest.front.DriverRestService:421] - 校验登录用户结果：AjaxResult [code=200, msg=成功, data=null]
+2016-04-14 15:20:48 [com.demo.web.servlet.driver.DriverLoginServlet:51] - 登录提交开始
+2016-04-14 15:20:48 [com.demo.web.servlet.driver.DriverLoginServlet:79] - 登录提交结束
+2016-04-14 15:20:48 [com.demo.web.servlet.driver.DriverWaitingServlet:28] - do get method start...
+2016-04-14 15:20:48 [com.demo.web.servlet.driver.DriverWaitingServlet:30] - do get method end...
+2016-04-14 15:20:49 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-04-14 15:20:49 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-04-14 15:20:49 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-04-14 15:20:49 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-04-14 15:20:49 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-04-14 15:20:49 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-04-14 15:20:58 [com.demo.rest.front.DriverWaitingRestService:87] - 参数错误，driverId=1，错误信息=AjaxResult [code=10003, msg=司机无等待信息, data=null]

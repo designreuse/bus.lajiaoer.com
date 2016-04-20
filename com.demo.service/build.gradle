@@ -1,0 +1,5 @@
+apply plugin: 'eclipse'
+
+dependencies {
+	compile project(':com.demo.model'), project(':com.demo.utils'), project(':com.demo.dao'), project(':com.demo.core')
+}

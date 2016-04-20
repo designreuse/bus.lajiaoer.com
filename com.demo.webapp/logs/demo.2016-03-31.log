@@ -1,0 +1,1214 @@
+2016-03-31 21:12:58 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-31 21:12:58 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-31 21:12:58 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-31 21:12:58 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-31 21:12:58 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-31 21:12:58 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-31 21:12:58 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-31 21:12:58 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-31 21:12:58 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-31 21:12:58 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-31 21:12:58 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-31 21:12:58 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-31 21:12:58 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-31 21:12:58 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-31 21:12:58 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-31 21:12:58 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-31 21:12:59 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-31 21:13:03 [com.demo.job.city.CityToRedisJob:39] - 执行存入完成
+2016-03-31 21:13:03 [com.demo.job.listener.ServerStartListener:25] - 服务器启动，执行city to redis job成功
+2016-03-31 21:13:03 [com.demo.web.filter.CharacterEncodingFilter:70] - 初始化字符集过滤
+2016-03-31 21:14:02 [com.demo.web.filter.CharacterEncodingFilter:41] - 销毁字符集过滤
+2016-03-31 21:14:02 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-31 21:14:02 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-31 21:14:02 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-31 21:14:02 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-31 21:16:39 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-31 21:16:39 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-31 21:16:39 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-31 21:16:39 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-31 21:16:39 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-31 21:16:39 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-31 21:16:39 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-31 21:16:39 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-31 21:16:39 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-31 21:16:39 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-31 21:16:40 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-31 21:16:40 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-31 21:16:40 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-31 21:16:40 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-31 21:16:40 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-31 21:16:40 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-31 21:16:41 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-31 21:16:45 [com.demo.job.city.CityToRedisJob:39] - 执行存入完成
+2016-03-31 21:16:45 [com.demo.job.listener.ServerStartListener:25] - 服务器启动，执行city to redis job成功
+2016-03-31 21:16:45 [com.demo.web.filter.CharacterEncodingFilter:70] - 初始化字符集过滤
+2016-03-31 21:16:58 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:16:58 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:16:58 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:16:58 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/favicon.ico
+2016-03-31 21:17:09 [com.demo.web.servlet.driver.DriverSignupServlet:29] - do get method start...
+2016-03-31 21:17:11 [com.demo.web.servlet.driver.DriverSignupServlet:31] - do get method end...
+2016-03-31 21:17:13 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:17:13 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:17:13 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:17:13 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/favicon.ico
+2016-03-31 21:18:18 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:18:18 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:18:18 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:18:18 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-31 21:18:48 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:18:48 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:18:48 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:18:48 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/driver//img/landing/sfz-b.svg
+2016-03-31 21:24:09 [com.demo.web.filter.CharacterEncodingFilter:41] - 销毁字符集过滤
+2016-03-31 21:24:09 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-31 21:24:09 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-31 21:24:09 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-31 21:24:09 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-31 21:24:16 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-31 21:24:16 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-31 21:24:16 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-31 21:24:16 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-31 21:24:16 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-31 21:24:16 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-31 21:24:16 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-31 21:24:16 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-31 21:24:16 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-31 21:24:16 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-31 21:24:17 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-31 21:24:17 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-31 21:24:17 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-31 21:24:17 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-31 21:24:17 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-31 21:24:17 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-31 21:24:18 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-31 21:24:19 [com.demo.job.city.CityToRedisJob:39] - 执行存入完成
+2016-03-31 21:24:19 [com.demo.job.listener.ServerStartListener:25] - 服务器启动，执行city to redis job成功
+2016-03-31 21:24:19 [com.demo.web.filter.CharacterEncodingFilter:70] - 初始化字符集过滤
+2016-03-31 21:24:25 [com.demo.web.servlet.driver.DriverSignupServlet:29] - do get method start...
+2016-03-31 21:24:28 [com.demo.web.servlet.driver.DriverSignupServlet:31] - do get method end...
+2016-03-31 21:24:29 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:24:29 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:24:29 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:24:29 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-31 21:24:30 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-31 21:24:30 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-31 21:24:31 [com.demo.web.filter.CharacterEncodingFilter:41] - 销毁字符集过滤
+2016-03-31 21:24:31 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-31 21:24:31 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-31 21:24:31 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-31 21:24:31 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-31 21:24:38 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-31 21:24:39 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-31 21:24:39 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-31 21:24:39 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-31 21:24:39 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-31 21:24:39 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-31 21:24:39 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-31 21:24:39 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-31 21:24:39 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-31 21:24:39 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-31 21:24:39 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-31 21:24:39 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-31 21:24:39 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-31 21:24:39 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-31 21:24:39 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-31 21:24:39 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-31 21:24:39 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-31 21:24:40 [com.demo.job.city.CityToRedisJob:39] - 执行存入完成
+2016-03-31 21:24:40 [com.demo.job.listener.ServerStartListener:25] - 服务器启动，执行city to redis job成功
+2016-03-31 21:24:40 [com.demo.web.filter.CharacterEncodingFilter:70] - 初始化字符集过滤
+2016-03-31 21:25:02 [com.demo.web.filter.CharacterEncodingFilter:41] - 销毁字符集过滤
+2016-03-31 21:25:02 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-31 21:25:02 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-31 21:25:02 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-31 21:25:02 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-31 21:25:55 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-31 21:25:55 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-31 21:25:55 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-31 21:25:55 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-31 21:25:55 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-31 21:25:55 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-31 21:25:55 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-31 21:25:55 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-31 21:25:55 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-31 21:25:55 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-31 21:25:55 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-31 21:25:55 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-31 21:25:55 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-31 21:25:55 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-31 21:25:55 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-31 21:25:55 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-31 21:25:56 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-31 21:26:00 [com.demo.job.city.CityToRedisJob:39] - 执行存入完成
+2016-03-31 21:26:00 [com.demo.job.listener.ServerStartListener:25] - 服务器启动，执行city to redis job成功
+2016-03-31 21:26:00 [com.demo.web.filter.CharacterEncodingFilter:70] - 初始化字符集过滤
+2016-03-31 21:26:08 [com.demo.web.servlet.driver.DriverSignupServlet:29] - do get method start...
+2016-03-31 21:26:14 [com.demo.web.servlet.driver.DriverSignupServlet:31] - do get method end...
+2016-03-31 21:26:15 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:26:15 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:26:15 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:26:15 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-31 21:26:16 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-31 21:26:16 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-31 21:27:55 [com.demo.web.servlet.driver.DriverSignupServlet:29] - do get method start...
+2016-03-31 21:27:55 [com.demo.web.servlet.driver.DriverSignupServlet:31] - do get method end...
+2016-03-31 21:27:58 [com.demo.web.filter.CharacterEncodingFilter:41] - 销毁字符集过滤
+2016-03-31 21:27:58 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-31 21:27:58 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-31 21:27:58 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-31 21:27:58 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-31 21:28:09 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-31 21:28:09 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-31 21:28:09 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-31 21:28:09 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-31 21:28:10 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-31 21:28:10 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-31 21:28:10 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-31 21:28:10 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-31 21:28:10 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-31 21:28:10 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-31 21:28:10 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-31 21:28:10 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-31 21:28:10 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-31 21:28:10 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-31 21:28:10 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-31 21:28:10 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-31 21:28:10 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-31 21:28:12 [com.demo.job.city.CityToRedisJob:39] - 执行存入完成
+2016-03-31 21:28:12 [com.demo.job.listener.ServerStartListener:25] - 服务器启动，执行city to redis job成功
+2016-03-31 21:28:12 [com.demo.web.filter.CharacterEncodingFilter:70] - 初始化字符集过滤
+2016-03-31 21:28:14 [com.demo.web.servlet.driver.DriverSignupServlet:29] - do get method start...
+2016-03-31 21:28:17 [com.demo.web.servlet.driver.DriverSignupServlet:31] - do get method end...
+2016-03-31 21:28:18 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:28:18 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:28:18 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:28:18 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-31 21:28:18 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-31 21:28:18 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-31 21:29:50 [com.demo.rpc.service.impl.CaptchaRpcServiceImpl:28] - rest result=AjaxResult [code=200, msg=成功, data={base64=data:image/jpg;base64,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r+mXaAJdKC/GG60AcFofidrBYo3hYyQIUJIJBHvW9D48tZo2WeFT688EfTmsCyjjh8U39opWSOVW+br7120GiaZqWmQmeyj5XPAxzQB55DfhNdmazRvImbhV7HPFetWpY2sRf720ZrhtW8LDQkk1GxfzIl5eF+mPatfwrrX2y2iDMSrkqA3VSO1AHT0UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAVzvjU3EmkfZrRJHllONqDqK6KggHqKAOW8GaLNp9sslzEI324C5yRT/EXhQa7qEc73BjRVwQBzXTUUAUdI0q30m0W3txwOpPU0XWj2N5dpdT26vNH91z2q9RQBUk0uxklEr20ZcchttWRGgGAigemKdRQAAADAGBRRRQAUUUUAFVb7TbPUY9l3Ako9xzVqigDmrnwNo00m9Y3i46I2BWVc/D5lVjZ37A5+VXHAruqKAPL7jwfrljc/aINs5UZ3KeT7Yp8Wt+INIVVmgnVMcBhuAr02mvGki7XVWHoRmgDy/U/Eur6vAtpDFJtl4ICYz+ldN4Q8PzWEKS3ahWXlUHY+tdOttAmNsSDHTipaACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/Z, token=Md2XLB}]
+2016-03-31 21:29:50 [com.demo.web.servlet.driver.DriverCaptchaServlet:47] - Driver 验证码={base64=data:image/jpg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCABQASIDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDv6KKKACiiigAooooAKKKKACiiigAooooAKKKKACiioLi8t7YEzzImOxPP5UAT0VVfUrNEDNcJgjI7/pTV1WycgCcZPqpH8xQBcoqk+r2CSGNrldy9QATiriMrqGU5U8g0ALRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAVTl1SziZ1MuWTqFBNW2yUIHXHFeM6o19FrFzFvYmOQttzwOaAPYLK7ivbdZ4c7G6ZqeuR8Gaus0Xks3yOfk9j3FdXM/lwu4xlVJ5oA5Lxj4pOmSJa2jZkzmQqcFfapfCl1cancG7lMgCpjDMTk/jXA6h5t8bu7I3MJCWPoKm0zU9TldbOx3fOR8o6UAetz3kEUMsnmxny1JI3DivJZtfvbm9uQH3ecSoyfuitvUtJ12xsJJJgk8TJ823gp/jVTwfFaOI5JYwzxzYckdj0oA0tL8F3V1ZJNcX8sUjDhB0Aqist5oWuLpl9KLm3k4ORnj1r0meaK0tmlkYJGi5yTXlU99LrvisTRxk/NtQAdBQAP9o0zXkZmIt7hsDdyCpr0TQrwvbPBMQJLfgntjsapa14cGoaAlsoX7TEMxueOfSuFvNWv7a3/s+XfHexny2YH769gaAOx8SeMIbJfs+nlZ524yvIWuYtPEmq/aIrYySowOX+Y1peB/DoeZ729U74zhUbsfWs3V4jZ+MpRIAoflcUAek6a80ljE9wcyMMnjFRajq1tp21ZWy7dEHXHrU9hIstjC69Cgrh/iTAwuLOduIvukjrQB1sGvWE7FRIykeq5/lmtCOaKbPlSI+Ou05xXndj4XlundbTUJEUKHRTzkGnTW2u6Ihmuo/PhB5aJsFRQB6LRXP6D4gjvbdN7Aqx2q/fPofQ10FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABXnfjmxax1iHUlXMUnD4FeiVz/ja1Fz4dnyceX8woA4VYZdLZL+1LNbM3zhf4D613+m6tFq2luqOomMZGPXiuZ8F7L6zazmUFJYyh/Cs87vDGsSWbOdoy0Mh9+1AEvhe0F1Nf2MmN0gZefXtWLpMzaH4iQXCkCOTa4/rXT+AI2nvri6ZM8klvc1kePLb7N4n8xPnMoD4x3oA9SjeO5gDqQ8bj6givOb61Gg+JZYydtvdDKnsp6irGleLFs7RkClJB/ywcHj6VieILvVNekF1JaSLFHwoCHigCbXvE15qxSwgysfClV/iNdh4P8Nx6VbLcTKDdOOT6e1cJYaVq8GJY9NmL53K/Q1s/bvFn/PC6/76/wDr0Ad5rF8NO02a6JGUXjPrXksKXHiTXCWbEspzu9K09RTxRqcQgnguDGTyrHj+ddT4O8MnS0+03SAXB6DOdtAGTp95e6BeLa6juR14SQ/ckHYE9vrSeNUF5HBqduP3kJAkUf55rstb0mHWdPe1l+UnlXA5U151cm60oy6LqDlY8Hy5Tzken0oA7PwdqKXWniIHlfmH0NT+LtMOp6JKiD94g3LXEeD9Wi02TdMfkRipx1we9d9Br+mXaAJdKC/GG60AcFofidrBYo3hYyQIUJIJBHvW9D48tZo2WeFT688EfTmsCyjjh8U39opWSOVW+br7120GiaZqWmQmeyj5XPAxzQB55DfhNdmazRvImbhV7HPFetWpY2sRf720ZrhtW8LDQkk1GxfzIl5eF+mPatfwrrX2y2iDMSrkqA3VSO1AHT0UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAVzvjU3EmkfZrRJHllONqDqK6KggHqKAOW8GaLNp9sslzEI324C5yRT/EXhQa7qEc73BjRVwQBzXTUUAUdI0q30m0W3txwOpPU0XWj2N5dpdT26vNH91z2q9RQBUk0uxklEr20ZcchttWRGgGAigemKdRQAAADAGBRRRQAUUUUAFVb7TbPUY9l3Ako9xzVqigDmrnwNo00m9Y3i46I2BWVc/D5lVjZ37A5+VXHAruqKAPL7jwfrljc/aINs5UZ3KeT7Yp8Wt+INIVVmgnVMcBhuAr02mvGki7XVWHoRmgDy/U/Eur6vAtpDFJtl4ICYz+ldN4Q8PzWEKS3ahWXlUHY+tdOttAmNsSDHTipaACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/Z, token=Md2XLB, alias=b15ae864054e99efec6011cabac047d9}
+2016-03-31 21:30:01 [com.demo.rest.front.DriverRestService:117] - strEmail=13439828888，strPassword=123456，strDrivername=许忠亮
+2016-03-31 21:30:01 [com.demo.rest.front.DriverRestService:127] - userSignup=Driver [id=null, name=许忠亮, cell=13439828888, password=123456, actived=null, used=null, sfzA=http://image.lajiaoer.com/upload/image/driver/1459430973741.jpg, sfzB=http://image.lajiaoer.com/upload/image/driver/1459430976488.jpg, jszA=http://image.lajiaoer.com/upload/image/driver/1459430979082.jpg, xszA=null, licensePlate=null, driverPlaceId=null, createdTime=null, updatedTime=null]
+2016-03-31 21:30:01 [com.alibaba.druid.filter.logging.Slf4jLogFilter:149] - {conn-10002, pstmt-20008} execute error. insert into demo_driver(cell, password, name, sfz_a, sfz_b, jsz_a, xsz_a, license_plate) values(?, ?, ?, ?, ?, ?, ?, ?)
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'license_plate' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_74]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_74]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_74]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_74]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.Util.getInstance(Util.java:387) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:932) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3878) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3814) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2478) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2625) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2551) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2073) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2009) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5094) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1994) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeUpdate(FilterChainImpl.java:2723) [druid-1.0.17.jar:1.0.17]
+	at com.alibaba.druid.filter.FilterAdapter.preparedStatement_executeUpdate(FilterAdapter.java:1069) [druid-1.0.17.jar:1.0.17]
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_executeUpdate(FilterEventAdapter.java:491) [druid-1.0.17.jar:1.0.17]
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeUpdate(FilterChainImpl.java:2721) [druid-1.0.17.jar:1.0.17]
+	at com.alibaba.druid.filter.FilterAdapter.preparedStatement_executeUpdate(FilterAdapter.java:1069) [druid-1.0.17.jar:1.0.17]
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_executeUpdate(FilterEventAdapter.java:491) [druid-1.0.17.jar:1.0.17]
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeUpdate(FilterChainImpl.java:2721) [druid-1.0.17.jar:1.0.17]
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.executeUpdate(PreparedStatementProxyImpl.java:158) [druid-1.0.17.jar:1.0.17]
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeUpdate(DruidPooledPreparedStatement.java:253) [druid-1.0.17.jar:1.0.17]
+	at org.apache.commons.dbutils.QueryRunner.insert(QueryRunner.java:606) [commons-dbutils-1.6.jar:1.6]
+	at org.apache.commons.dbutils.QueryRunner.insert(QueryRunner.java:565) [commons-dbutils-1.6.jar:1.6]
+	at com.demo.db.dao.impl.DriverDaoImpl.insert(DriverDaoImpl.java:70) [com.demo.dao-1.0.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_74]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_74]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_74]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_74]
+	at com.demo.core.dynamic.DynamicInvocation.invoke(DynamicInvocation.java:23) [com.demo.core-1.0.jar:na]
+	at com.sun.proxy.$Proxy99.insert(Unknown Source) [na:na]
+	at com.demo.service.impl.DriverServiceImpl.insert(DriverServiceImpl.java:25) [com.demo.service-1.0.jar:na]
+	at com.demo.service.impl.DriverServiceImpl.signup(DriverServiceImpl.java:30) [com.demo.service-1.0.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_74]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_74]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_74]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_74]
+	at com.demo.core.dynamic.DynamicInvocation.invoke(DynamicInvocation.java:23) [com.demo.core-1.0.jar:na]
+	at com.sun.proxy.$Proxy98.signup(Unknown Source) [na:na]
+	at com.demo.rest.front.DriverRestService.validSignupDriver(DriverRestService.java:129) [com.demo.rest-1.0.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_74]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_74]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_74]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_74]
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$1.invoke(ResourceMethodInvocationHandlerFactory.java:81) [jersey-server-2.22.2.jar:na]
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:144) [jersey-server-2.22.2.jar:na]
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:161) [jersey-server-2.22.2.jar:na]
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:205) [jersey-server-2.22.2.jar:na]
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:99) [jersey-server-2.22.2.jar:na]
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:389) [jersey-server-2.22.2.jar:na]
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:347) [jersey-server-2.22.2.jar:na]
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:102) [jersey-server-2.22.2.jar:na]
+	at org.glassfish.jersey.server.ServerRuntime$2.run(ServerRuntime.java:326) [jersey-server-2.22.2.jar:na]
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:271) [jersey-common-2.22.2.jar:na]
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:267) [jersey-common-2.22.2.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:315) [jersey-common-2.22.2.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:297) [jersey-common-2.22.2.jar:na]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:267) [jersey-common-2.22.2.jar:na]
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:317) [jersey-common-2.22.2.jar:na]
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:305) [jersey-server-2.22.2.jar:na]
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:1154) [jersey-server-2.22.2.jar:na]
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:473) [jersey-container-servlet-core-2.22.2.jar:na]
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:427) [jersey-container-servlet-core-2.22.2.jar:na]
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:388) [jersey-container-servlet-core-2.22.2.jar:na]
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:341) [jersey-container-servlet-core-2.22.2.jar:na]
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:228) [jersey-container-servlet-core-2.22.2.jar:na]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808) [jetty-servlet-9.2.10.v20150310.jar:9.2.10.v20150310]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669) [jetty-servlet-9.2.10.v20150310.jar:9.2.10.v20150310]
+	at com.demo.web.filter.CityCookieFilter.doFilter(CityCookieFilter.java:66) [classes/:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652) [jetty-servlet-9.2.10.v20150310.jar:9.2.10.v20150310]
+	at com.demo.web.filter.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:63) [classes/:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652) [jetty-servlet-9.2.10.v20150310.jar:9.2.10.v20150310]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.handle(CrossOriginFilter.java:256) [jetty-servlets-9.2.14.v20151106.jar:9.2.14.v20151106]
+	at org.eclipse.jetty.servlets.CrossOriginFilter.doFilter(CrossOriginFilter.java:219) [jetty-servlets-9.2.14.v20151106.jar:9.2.14.v20151106]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652) [jetty-servlet-9.2.10.v20150310.jar:9.2.10.v20150310]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585) [jetty-servlet-9.2.10.v20150310.jar:9.2.10.v20150310]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [jetty-server-9.2.10.v20150310.jar:9.2.10.v20150310]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577) [jetty-security-9.2.10.v20150310.jar:9.2.10.v20150310]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223) [jetty-server-9.2.10.v20150310.jar:9.2.10.v20150310]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127) [jetty-server-9.2.10.v20150310.jar:9.2.10.v20150310]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515) [jetty-servlet-9.2.10.v20150310.jar:9.2.10.v20150310]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [jetty-server-9.2.10.v20150310.jar:9.2.10.v20150310]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061) [jetty-server-9.2.10.v20150310.jar:9.2.10.v20150310]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [jetty-server-9.2.10.v20150310.jar:9.2.10.v20150310]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215) [jetty-server-9.2.10.v20150310.jar:9.2.10.v20150310]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97) [jetty-server-9.2.10.v20150310.jar:9.2.10.v20150310]
+	at org.eclipse.jetty.server.Server.handle(Server.java:497) [jetty-server-9.2.10.v20150310.jar:9.2.10.v20150310]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310) [jetty-server-9.2.10.v20150310.jar:9.2.10.v20150310]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257) [jetty-server-9.2.10.v20150310.jar:9.2.10.v20150310]
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540) [jetty-io-9.2.10.v20150310.jar:9.2.10.v20150310]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635) [jetty-util-9.2.10.v20150310.jar:9.2.10.v20150310]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555) [jetty-util-9.2.10.v20150310.jar:9.2.10.v20150310]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_74]
+2016-03-31 21:30:01 [com.demo.db.dao.impl.DriverDaoImpl:79] - insert方法发生异常，参数Driver [id=null, name=许忠亮, cell=13439828888, password=123456, actived=null, used=null, sfzA=http://image.lajiaoer.com/upload/image/driver/1459430973741.jpg, sfzB=http://image.lajiaoer.com/upload/image/driver/1459430976488.jpg, jszA=http://image.lajiaoer.com/upload/image/driver/1459430979082.jpg, xszA=null, licensePlate=null, driverPlaceId=null, createdTime=null, updatedTime=null]
+2016-03-31 21:30:01 [com.demo.web.servlet.Error500Servlet:52] - statusCode=500
+2016-03-31 21:30:01 [com.demo.web.servlet.Error500Servlet:53] - servletName=jersey-serlvet
+2016-03-31 21:30:01 [com.demo.web.servlet.Error500Servlet:54] - message=Request failed.
+2016-03-31 21:30:01 [com.demo.web.servlet.Error500Servlet:55] - requestUri=/rest/driver/signup
+2016-03-31 21:30:01 [com.demo.web.servlet.Error500Servlet:56] - java.util.Collections$3@67bbbfdf
+2016-03-31 21:37:58 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-31 21:37:58 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-31 21:37:58 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-31 21:37:58 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-31 21:37:58 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-31 21:37:58 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-31 21:37:58 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-31 21:37:58 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-31 21:37:58 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-31 21:37:58 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-31 21:37:58 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-31 21:37:58 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-31 21:37:58 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-31 21:37:58 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-31 21:37:58 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-31 21:37:58 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-31 21:37:59 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-31 21:38:03 [com.demo.job.city.CityToRedisJob:39] - 执行存入完成
+2016-03-31 21:38:03 [com.demo.job.listener.ServerStartListener:25] - 服务器启动，执行city to redis job成功
+2016-03-31 21:38:03 [com.demo.web.filter.CharacterEncodingFilter:70] - 初始化字符集过滤
+2016-03-31 21:38:13 [com.demo.web.servlet.driver.DriverSignupServlet:29] - do get method start...
+2016-03-31 21:38:19 [com.demo.web.servlet.driver.DriverSignupServlet:31] - do get method end...
+2016-03-31 21:38:20 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:38:20 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:38:20 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:38:20 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-31 21:38:21 [com.demo.service.impl.CityServiceImpl:27] - redis key is city:1
+2016-03-31 21:38:21 [com.demo.service.impl.CityServiceImpl:32] - city mapper object City [id=1, name=北京市]
+2016-03-31 21:39:24 [com.demo.rpc.service.impl.CaptchaRpcServiceImpl:28] - rest result=AjaxResult [code=200, msg=成功, data={base64=data:image/jpg;base64,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, token=BABqgh}]
+2016-03-31 21:39:24 [com.demo.web.servlet.driver.DriverCaptchaServlet:47] - Driver 验证码={base64=data:image/jpg;base64,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, token=BABqgh, alias=f757238d646c5ae65377cab7fbe7ac7e}
+2016-03-31 21:39:31 [com.demo.rest.front.DriverRestService:139] - strEmail=13438388888，strPassword=123456，strDrivername=许忠亮
+2016-03-31 21:39:31 [com.demo.rest.front.DriverRestService:151] - userSignup=Driver [id=null, name=许忠亮, cell=13438388888, password=123456, actived=null, used=null, sfzA=http://image.lajiaoer.com/upload/image/driver/1459431555223.jpg, sfzB=http://image.lajiaoer.com/upload/image/driver/1459431557354.jpg, jszA=http://image.lajiaoer.com/upload/image/driver/1459431559812.jpg, xszA=http://image.lajiaoer.com/upload/image/driver/1459431562261.jpg, licensePlate=京B5E33E, driverPlaceId=null, createdTime=null, updatedTime=null]
+2016-03-31 21:39:31 [com.demo.rest.front.DriverRestService:156] - 注册成功，司机id=10
+2016-03-31 21:39:31 [com.demo.web.servlet.driver.DriverSignupSuccessServlet:29] - do get method start...
+2016-03-31 21:39:32 [com.demo.web.servlet.driver.DriverSignupSuccessServlet:31] - do get method end...
+2016-03-31 21:39:38 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:39:38 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:39:38 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:39:38 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-31 21:40:27 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:40:27 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:40:27 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:40:27 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/favicon.ico
+2016-03-31 21:40:32 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:40:32 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:40:32 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:40:32 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/favicon.ico
+2016-03-31 21:40:41 [com.demo.web.servlet.admin.AdminMainServlet:28] - 用户信息，user=User [id=1, name=admin, realName=系统管理员, password=e10adc3949ba59abbe56e057f20f883e, enabled=1, createdTime=Tue Mar 29 14:19:12 CST 2016, updatedTime=2016-03-29 14:19:12.0]
+2016-03-31 21:40:50 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:40:50 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:40:50 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:40:50 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1458710156652.JPG
+2016-03-31 21:40:50 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:40:50 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:40:50 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:40:50 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:40:50 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:40:50 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:40:50 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1458710145790.JPG
+2016-03-31 21:40:50 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1458710150326.JPG
+2016-03-31 21:42:20 [com.demo.web.filter.CharacterEncodingFilter:41] - 销毁字符集过滤
+2016-03-31 21:42:20 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-31 21:42:20 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-31 21:42:20 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-31 21:42:20 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-31 21:42:44 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-31 21:42:44 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-31 21:42:45 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-31 21:42:45 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-31 21:42:45 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-31 21:42:45 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-31 21:42:45 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-31 21:42:45 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-31 21:42:45 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-31 21:42:45 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-31 21:42:45 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-31 21:42:45 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-31 21:42:45 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-31 21:42:45 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-31 21:42:45 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-31 21:42:45 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-31 21:42:45 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-31 21:42:47 [com.demo.job.city.CityToRedisJob:39] - 执行存入完成
+2016-03-31 21:42:47 [com.demo.job.listener.ServerStartListener:25] - 服务器启动，执行city to redis job成功
+2016-03-31 21:42:47 [com.demo.web.filter.CharacterEncodingFilter:70] - 初始化字符集过滤
+2016-03-31 21:42:52 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:42:52 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:42:52 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:42:52 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:42:52 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:42:52 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:42:52 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:42:52 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:42:52 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:42:52 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431555223.jpg
+2016-03-31 21:42:52 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431557354.jpg
+2016-03-31 21:42:52 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431559812.jpg
+2016-03-31 21:42:52 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:42:52 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:42:52 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:42:52 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431562261.jpg
+2016-03-31 21:43:38 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:43:38 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:43:38 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:43:38 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431555223.jpg
+2016-03-31 21:43:38 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:43:38 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:43:38 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:43:38 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431557354.jpg
+2016-03-31 21:43:38 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:43:38 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:43:38 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:43:38 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431559812.jpg
+2016-03-31 21:43:38 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:43:38 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:43:38 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:43:38 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431562261.jpg
+2016-03-31 21:43:41 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:43:41 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:43:41 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:43:41 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431555223.jpg
+2016-03-31 21:43:41 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:43:41 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:43:41 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:43:41 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431557354.jpg
+2016-03-31 21:43:41 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:43:41 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:43:41 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:43:41 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431559812.jpg
+2016-03-31 21:43:41 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:43:41 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:43:41 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:43:41 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431562261.jpg
+2016-03-31 21:43:43 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:43:43 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:43:43 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:43:43 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431555223.jpg
+2016-03-31 21:43:43 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:43:43 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:43:43 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:43:43 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431557354.jpg
+2016-03-31 21:43:43 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:43:43 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:43:43 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:43:43 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:43:43 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:43:43 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431559812.jpg
+2016-03-31 21:43:43 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:43:43 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431562261.jpg
+2016-03-31 21:43:44 [com.demo.web.filter.CharacterEncodingFilter:41] - 销毁字符集过滤
+2016-03-31 21:43:44 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-31 21:43:44 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-31 21:43:44 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-31 21:43:44 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-31 21:43:53 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-31 21:43:53 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-31 21:43:53 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-31 21:43:53 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-31 21:43:53 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-31 21:43:53 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-31 21:43:53 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-31 21:43:53 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-31 21:43:53 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-31 21:43:53 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-31 21:43:53 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-31 21:43:53 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-31 21:43:53 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-31 21:43:53 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-31 21:43:53 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-31 21:43:53 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-31 21:43:54 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-31 21:43:55 [com.demo.job.city.CityToRedisJob:39] - 执行存入完成
+2016-03-31 21:43:55 [com.demo.job.listener.ServerStartListener:25] - 服务器启动，执行city to redis job成功
+2016-03-31 21:43:55 [com.demo.web.filter.CharacterEncodingFilter:70] - 初始化字符集过滤
+2016-03-31 21:44:01 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:44:01 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:44:01 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:44:01 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:44:01 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:44:01 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:44:01 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:44:01 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:44:01 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:44:01 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431555223.jpg
+2016-03-31 21:44:01 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431557354.jpg
+2016-03-31 21:44:01 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431559812.jpg
+2016-03-31 21:44:01 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:44:01 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:44:01 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:44:01 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431562261.jpg
+2016-03-31 21:45:32 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:45:32 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:45:32 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:45:32 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-03-31 21:45:32 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:45:32 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:45:32 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:45:32 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-31 21:47:23 [com.demo.web.filter.CharacterEncodingFilter:41] - 销毁字符集过滤
+2016-03-31 21:47:23 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-31 21:47:23 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-31 21:47:23 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-31 21:47:23 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-31 21:47:32 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-31 21:47:32 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-31 21:47:32 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-31 21:47:32 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-31 21:47:32 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-31 21:47:32 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-31 21:47:33 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-31 21:47:33 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-31 21:47:33 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-31 21:47:33 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-31 21:47:33 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-31 21:47:33 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-31 21:47:33 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-31 21:47:33 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-31 21:47:33 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-31 21:47:33 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-31 21:47:33 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-31 21:47:35 [com.demo.job.city.CityToRedisJob:39] - 执行存入完成
+2016-03-31 21:47:35 [com.demo.job.listener.ServerStartListener:25] - 服务器启动，执行city to redis job成功
+2016-03-31 21:47:35 [com.demo.web.filter.CharacterEncodingFilter:70] - 初始化字符集过滤
+2016-03-31 21:48:13 [com.demo.web.filter.CharacterEncodingFilter:41] - 销毁字符集过滤
+2016-03-31 21:48:13 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-31 21:48:13 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-31 21:48:13 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-31 21:48:13 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-31 21:48:24 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-31 21:48:24 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-31 21:48:24 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-31 21:48:24 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-31 21:48:24 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-31 21:48:24 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-31 21:48:24 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-31 21:48:24 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-31 21:48:24 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-31 21:48:24 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-31 21:48:24 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-31 21:48:24 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-31 21:48:24 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-31 21:48:24 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-31 21:48:24 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-31 21:48:24 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-31 21:48:26 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-31 21:48:28 [com.demo.job.city.CityToRedisJob:39] - 执行存入完成
+2016-03-31 21:48:28 [com.demo.job.listener.ServerStartListener:25] - 服务器启动，执行city to redis job成功
+2016-03-31 21:48:28 [com.demo.web.filter.CharacterEncodingFilter:70] - 初始化字符集过滤
+2016-03-31 21:48:32 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:48:32 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:48:32 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:48:32 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431555223.jpg
+2016-03-31 21:48:33 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:48:33 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:48:33 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:48:33 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431562261.jpg
+2016-03-31 21:48:33 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:48:33 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:48:33 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:48:33 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431557354.jpg
+2016-03-31 21:48:33 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:48:33 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:48:33 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:48:33 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431559812.jpg
+2016-03-31 21:48:33 [com.demo.web.filter.CharacterEncodingFilter:41] - 销毁字符集过滤
+2016-03-31 21:48:33 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-31 21:48:33 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-31 21:48:33 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-31 21:48:33 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-31 21:48:44 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-31 21:48:44 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-31 21:48:44 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-31 21:48:44 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-31 21:48:44 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-31 21:48:44 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-31 21:48:44 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-31 21:48:44 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-31 21:48:44 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-31 21:48:44 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-31 21:48:44 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-31 21:48:44 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-31 21:48:44 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-31 21:48:44 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-31 21:48:44 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-31 21:48:44 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-31 21:48:45 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-31 21:48:47 [com.demo.job.city.CityToRedisJob:39] - 执行存入完成
+2016-03-31 21:48:47 [com.demo.job.listener.ServerStartListener:25] - 服务器启动，执行city to redis job成功
+2016-03-31 21:48:47 [com.demo.web.filter.CharacterEncodingFilter:70] - 初始化字符集过滤
+2016-03-31 21:49:13 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:49:13 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:49:13 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:49:13 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:49:13 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:49:13 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:49:13 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431555223.jpg
+2016-03-31 21:49:13 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431557354.jpg
+2016-03-31 21:49:13 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:49:13 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:49:13 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:49:13 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:49:13 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431559812.jpg
+2016-03-31 21:49:13 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:49:13 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:49:13 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431562261.jpg
+2016-03-31 21:49:13 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:49:13 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:49:13 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:49:13 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-31 21:49:14 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:49:14 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:49:14 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:49:14 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-03-31 21:51:00 [com.demo.web.filter.CharacterEncodingFilter:41] - 销毁字符集过滤
+2016-03-31 21:51:00 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-31 21:51:00 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-31 21:51:00 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-31 21:51:00 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-31 21:51:08 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-31 21:51:08 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-31 21:51:08 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-31 21:51:08 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-31 21:51:08 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-31 21:51:08 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-31 21:51:08 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-31 21:51:08 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-31 21:51:08 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-31 21:51:08 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-31 21:51:08 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-31 21:51:08 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-31 21:51:08 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-31 21:51:08 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-31 21:51:08 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-31 21:51:08 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-31 21:51:09 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-31 21:51:10 [com.demo.job.city.CityToRedisJob:39] - 执行存入完成
+2016-03-31 21:51:10 [com.demo.job.listener.ServerStartListener:25] - 服务器启动，执行city to redis job成功
+2016-03-31 21:51:10 [com.demo.web.filter.CharacterEncodingFilter:70] - 初始化字符集过滤
+2016-03-31 21:51:20 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:51:20 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:51:20 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:51:20 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431555223.jpg
+2016-03-31 21:51:21 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:51:21 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:51:21 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:51:21 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431557354.jpg
+2016-03-31 21:51:21 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:51:21 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:51:21 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:51:21 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431559812.jpg
+2016-03-31 21:51:21 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:51:21 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:51:21 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:51:21 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431562261.jpg
+2016-03-31 21:51:21 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:51:21 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:51:21 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:51:21 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-31 21:51:22 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 21:51:22 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 21:51:22 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 21:51:22 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-03-31 21:55:41 [com.demo.web.filter.CharacterEncodingFilter:41] - 销毁字符集过滤
+2016-03-31 21:55:41 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-31 21:55:41 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-31 21:55:41 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-31 21:55:41 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-31 21:55:49 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-31 21:55:50 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-31 21:55:50 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-31 21:55:50 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-31 21:55:50 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-31 21:55:50 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-31 21:55:50 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-31 21:55:50 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-31 21:55:50 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-31 21:55:50 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-31 21:55:50 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-31 21:55:50 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-31 21:55:50 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-31 21:55:50 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-31 21:55:50 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-31 21:55:50 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-31 21:55:50 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-31 21:55:52 [com.demo.job.city.CityToRedisJob:39] - 执行存入完成
+2016-03-31 21:55:52 [com.demo.job.listener.ServerStartListener:25] - 服务器启动，执行city to redis job成功
+2016-03-31 21:55:52 [com.demo.web.filter.CharacterEncodingFilter:70] - 初始化字符集过滤
+2016-03-31 21:57:14 [com.demo.web.filter.CharacterEncodingFilter:41] - 销毁字符集过滤
+2016-03-31 21:57:14 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-31 21:57:14 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-31 21:57:14 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-31 21:57:14 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-31 21:57:22 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-31 21:57:22 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-31 21:57:22 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-31 21:57:22 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-31 21:57:22 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-31 21:57:22 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-31 21:57:22 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-31 21:57:22 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-31 21:57:22 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-31 21:57:22 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-31 21:57:22 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-31 21:57:22 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-31 21:57:22 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-31 21:57:22 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-31 21:57:22 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-31 21:57:22 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-31 21:57:23 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-31 21:57:24 [com.demo.job.city.CityToRedisJob:39] - 执行存入完成
+2016-03-31 21:57:24 [com.demo.job.listener.ServerStartListener:25] - 服务器启动，执行city to redis job成功
+2016-03-31 21:57:24 [com.demo.web.filter.CharacterEncodingFilter:70] - 初始化字符集过滤
+2016-03-31 22:05:17 [com.demo.web.filter.CharacterEncodingFilter:41] - 销毁字符集过滤
+2016-03-31 22:05:17 [org.quartz.core.QuartzScheduler:694] - Scheduler MyScheduler_$_NON_CLUSTERED shutting down.
+2016-03-31 22:05:17 [org.quartz.core.QuartzScheduler:613] - Scheduler MyScheduler_$_NON_CLUSTERED paused.
+2016-03-31 22:05:17 [org.quartz.core.QuartzScheduler:771] - Scheduler MyScheduler_$_NON_CLUSTERED shutdown complete.
+2016-03-31 22:05:17 [org.quartz.ee.servlet.QuartzInitializerListener:264] - Quartz Scheduler successful shutdown.
+2016-03-31 22:05:26 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-31 22:05:26 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-31 22:05:26 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-31 22:05:26 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-31 22:05:26 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-31 22:05:26 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-31 22:05:26 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-31 22:05:26 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-31 22:05:26 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-31 22:05:26 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-31 22:05:26 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-31 22:05:26 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-31 22:05:26 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-31 22:05:26 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-31 22:05:26 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-31 22:05:26 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-31 22:05:27 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-31 22:05:28 [com.demo.job.city.CityToRedisJob:39] - 执行存入完成
+2016-03-31 22:05:28 [com.demo.job.listener.ServerStartListener:25] - 服务器启动，执行city to redis job成功
+2016-03-31 22:05:28 [com.demo.web.filter.CharacterEncodingFilter:70] - 初始化字符集过滤
+2016-03-31 22:07:52 [org.quartz.ee.servlet.QuartzInitializerListener:147] - Quartz Initializer Servlet loaded, initializing Scheduler...
+2016-03-31 22:07:52 [org.quartz.impl.StdSchedulerFactory:1172] - Using default implementation for ThreadExecutor
+2016-03-31 22:07:52 [org.quartz.core.SchedulerSignalerImpl:61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-03-31 22:07:52 [org.quartz.core.QuartzScheduler:240] - Quartz Scheduler v.2.2.2 created.
+2016-03-31 22:07:52 [org.quartz.plugins.xml.XMLSchedulingDataProcessorPlugin:200] - Registering Quartz Job Initialization Plug-in.
+2016-03-31 22:07:52 [org.quartz.simpl.RAMJobStore:155] - RAMJobStore initialized.
+2016-03-31 22:07:52 [org.quartz.core.QuartzScheduler:305] - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'MyScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 3 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-31 22:07:52 [org.quartz.impl.StdSchedulerFactory:1327] - Quartz scheduler 'MyScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-03-31 22:07:52 [org.quartz.impl.StdSchedulerFactory:1331] - Quartz scheduler version: 2.2.2
+2016-03-31 22:07:53 [org.quartz.xml.XMLSchedulingDataProcessor:452] - Parsing XML file: quartz-config.xml with systemId: quartz-config.xml
+2016-03-31 22:07:53 [org.quartz.xml.XMLSchedulingDataProcessor:977] - Adding 2 jobs, 2 triggers.
+2016-03-31 22:07:53 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: AGroup.AJob
+2016-03-31 22:07:53 [org.quartz.xml.XMLSchedulingDataProcessor:1015] - Adding job: BGroup.BJob
+2016-03-31 22:07:53 [org.quartz.core.QuartzScheduler:575] - Scheduler MyScheduler_$_NON_CLUSTERED started.
+2016-03-31 22:07:53 [org.quartz.ee.servlet.QuartzInitializerListener:199] - Scheduler has been started...
+2016-03-31 22:07:53 [org.quartz.ee.servlet.QuartzInitializerListener:217] - Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2016-03-31 22:07:54 [com.alibaba.druid.pool.DruidDataSource:686] - {dataSource-1} inited
+2016-03-31 22:07:59 [com.demo.job.city.CityToRedisJob:39] - ִ�д������
+2016-03-31 22:07:59 [com.demo.job.listener.ServerStartListener:25] - ������������ִ��city to redis job�ɹ�
+2016-03-31 22:07:59 [com.demo.web.filter.CharacterEncodingFilter:70] - ��ʼ���ַ�������
+2016-03-31 22:08:15 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:08:15 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:08:15 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:08:15 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:08:15 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:08:15 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:08:15 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:08:15 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:08:15 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:08:15 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:08:15 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431557354.jpg
+2016-03-31 22:08:15 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431555223.jpg
+2016-03-31 22:08:15 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:08:15 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431559812.jpg
+2016-03-31 22:08:15 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:08:15 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431562261.jpg
+2016-03-31 22:08:16 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:08:16 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:08:16 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:08:16 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-31 22:08:17 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:08:17 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:08:17 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:08:17 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-03-31 22:08:20 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:08:20 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:08:20 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:08:20 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/favicon.ico
+2016-03-31 22:08:26 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:08:26 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:08:26 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:08:26 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431555223.jpg
+2016-03-31 22:08:26 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:08:26 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:08:26 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:08:26 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431559812.jpg
+2016-03-31 22:08:26 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:08:26 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:08:26 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:08:26 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431557354.jpg
+2016-03-31 22:08:26 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:08:26 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:08:26 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:08:26 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431562261.jpg
+2016-03-31 22:08:27 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:08:27 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:08:27 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:08:27 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:08:27 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:08:27 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:08:27 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431555223.jpg
+2016-03-31 22:08:27 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431559812.jpg
+2016-03-31 22:08:27 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:08:27 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:08:27 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:08:27 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431557354.jpg
+2016-03-31 22:08:27 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:08:27 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:08:27 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:08:27 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431562261.jpg
+2016-03-31 22:08:27 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:08:27 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:08:27 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:08:27 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-31 22:08:28 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:08:28 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:08:28 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:08:28 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:08:28 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/favicon.ico
+2016-03-31 22:08:28 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:08:28 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:08:28 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-03-31 22:09:53 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:09:53 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:09:53 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:09:53 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431555223.jpg
+2016-03-31 22:09:53 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:09:53 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:09:53 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:09:53 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431557354.jpg
+2016-03-31 22:09:53 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:09:53 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:09:53 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:09:53 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431559812.jpg
+2016-03-31 22:09:53 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:09:53 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:09:53 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:09:53 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431562261.jpg
+2016-03-31 22:09:54 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:09:54 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:09:54 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:09:54 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431555223.jpg
+2016-03-31 22:09:54 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:09:54 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:09:54 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:09:54 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:09:54 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:09:54 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:09:54 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:09:54 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431559812.jpg
+2016-03-31 22:09:54 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:09:54 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431557354.jpg
+2016-03-31 22:09:54 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:09:54 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431562261.jpg
+2016-03-31 22:09:54 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:09:54 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:09:54 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:09:54 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-31 22:09:56 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:09:56 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:09:56 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:09:56 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-03-31 22:09:57 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:09:57 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:09:57 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:09:57 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/favicon.ico
+2016-03-31 22:12:59 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:12:59 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:12:59 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:12:59 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431555223.jpg
+2016-03-31 22:12:59 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:12:59 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:12:59 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:12:59 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431557354.jpg
+2016-03-31 22:12:59 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:12:59 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:12:59 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:12:59 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:12:59 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:12:59 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:12:59 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431562261.jpg
+2016-03-31 22:12:59 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431559812.jpg
+2016-03-31 22:13:00 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:13:00 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:13:00 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:13:00 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431555223.jpg
+2016-03-31 22:13:00 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:13:00 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:13:00 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:13:00 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431557354.jpg
+2016-03-31 22:13:00 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:13:00 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:13:00 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:13:00 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431559812.jpg
+2016-03-31 22:13:00 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:13:00 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:13:00 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:13:00 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431562261.jpg
+2016-03-31 22:13:00 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:13:00 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:13:00 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:13:00 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-31 22:13:00 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:13:00 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:13:00 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:13:00 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-03-31 22:13:01 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:13:01 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:13:01 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:13:01 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/favicon.ico
+2016-03-31 22:13:14 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:13:14 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:13:14 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:13:14 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431557354.jpg
+2016-03-31 22:13:14 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:13:14 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:13:14 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:13:14 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431555223.jpg
+2016-03-31 22:13:14 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:13:14 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:13:14 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:13:14 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:13:14 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:13:14 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:13:14 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431562261.jpg
+2016-03-31 22:13:14 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431559812.jpg
+2016-03-31 22:13:14 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:13:14 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:13:14 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:13:14 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-31 22:13:24 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:13:24 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:13:24 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:13:24 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-03-31 22:13:24 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:13:24 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:13:24 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:13:24 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/favicon.ico
+2016-03-31 22:14:47 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:14:47 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:14:47 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:14:47 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431555223.jpg
+2016-03-31 22:14:47 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:14:47 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:14:47 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:14:47 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431559812.jpg
+2016-03-31 22:14:47 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:14:47 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:14:47 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:14:47 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431557354.jpg
+2016-03-31 22:14:47 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:14:47 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:14:47 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:14:47 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431562261.jpg
+2016-03-31 22:14:53 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:14:53 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:14:53 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:14:53 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:14:53 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:14:53 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:14:53 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431555223.jpg
+2016-03-31 22:14:53 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431557354.jpg
+2016-03-31 22:14:53 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:14:53 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:14:53 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:14:53 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431559812.jpg
+2016-03-31 22:14:53 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:14:53 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:14:53 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:14:53 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431562261.jpg
+2016-03-31 22:15:11 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:15:11 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:15:11 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:15:11 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:15:11 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:15:11 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:15:11 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431555223.jpg
+2016-03-31 22:15:11 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:15:11 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:15:11 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431557354.jpg
+2016-03-31 22:15:11 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:15:11 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431559812.jpg
+2016-03-31 22:15:11 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:15:11 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:15:11 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:15:11 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431562261.jpg
+2016-03-31 22:15:31 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:15:31 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:15:31 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:15:31 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:15:31 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:15:31 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431555223.jpg
+2016-03-31 22:15:31 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:15:31 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:15:31 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431557354.jpg
+2016-03-31 22:15:31 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:15:31 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:15:31 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431559812.jpg
+2016-03-31 22:15:31 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:15:31 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:15:31 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:15:31 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431562261.jpg
+2016-03-31 22:15:36 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:15:36 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:15:36 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:15:36 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431555223.jpg
+2016-03-31 22:15:36 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:15:36 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:15:36 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:15:36 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431557354.jpg
+2016-03-31 22:15:36 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:15:36 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:15:36 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:15:36 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:15:36 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431559812.jpg
+2016-03-31 22:15:36 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:15:36 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:15:36 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431562261.jpg
+2016-03-31 22:15:38 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:15:38 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:15:38 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:15:38 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:15:38 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431555223.jpg
+2016-03-31 22:15:38 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:15:38 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:15:38 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431557354.jpg
+2016-03-31 22:15:38 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:15:38 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:15:38 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:15:38 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431559812.jpg
+2016-03-31 22:15:38 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:15:38 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:15:38 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:15:38 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431562261.jpg
+2016-03-31 22:16:18 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:16:18 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:16:18 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:16:18 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:16:18 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:16:18 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:16:18 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:16:18 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:16:18 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:16:18 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:16:18 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:16:18 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:16:18 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431557354.jpg
+2016-03-31 22:16:18 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431555223.jpg
+2016-03-31 22:16:18 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431559812.jpg
+2016-03-31 22:16:18 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/upload/image/driver/1459431562261.jpg
+2016-03-31 22:17:05 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:17:05 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:17:05 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:17:05 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-03-31 22:17:05 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:17:05 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:17:05 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:17:05 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-31 22:18:03 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:18:03 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:18:03 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:18:03 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-31 22:18:04 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:18:04 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:18:04 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:18:04 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-03-31 22:19:12 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:19:12 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:19:12 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:19:12 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-03-31 22:19:16 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:19:16 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:19:16 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:19:16 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-31 22:19:57 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:19:57 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:19:57 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:19:57 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map
+2016-03-31 22:19:57 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:19:57 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:19:57 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:19:57 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-03-31 22:22:58 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:22:58 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:22:58 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:22:58 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/toastr.js.map
+2016-03-31 22:23:05 [com.demo.web.servlet.Error404Servlet:42] - statusCode=404
+2016-03-31 22:23:05 [com.demo.web.servlet.Error404Servlet:43] - servletName=default
+2016-03-31 22:23:05 [com.demo.web.servlet.Error404Servlet:44] - message=Not Found
+2016-03-31 22:23:05 [com.demo.web.servlet.Error404Servlet:45] - requestUri=/css/bootstrap.min.css.map

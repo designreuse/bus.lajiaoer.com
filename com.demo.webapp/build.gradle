@@ -1,0 +1,67 @@
+apply plugin: 'war'
+apply plugin: 'eclipse-wtp'
+apply plugin: 'org.akhikhl.gretty'
+
+configurations {
+  provided
+}
+
+sourceSets {
+  main.compileClasspath += configurations.provided
+  test.compileClasspath += configurations.provided
+  test.runtimeClasspath += configurations.provided
+}
+
+buildscript {
+  repositories {
+    jcenter()
+    // enable this to use snapshot versions of Gretty:
+    // maven { url 'http://oss.jfrog.org/artifactory/oss-snapshot-local' }
+  }
+
+  dependencies {
+    classpath 'org.akhikhl.gretty:gretty:+'
+  }
+}
+
+dependencies {
+	compile project(':com.demo.dao'), project(':com.demo.model'), project(':com.demo.service'), project(':com.demo.utils'), project(':com.demo.rpc'), project(':com.demo.rest'), project(':com.demo.job'), project(':com.demo.core'), project(':com.demo.captcha')
+    providedCompile 'javax.servlet:javax.servlet-api:3.1.0'
+    providedCompile 'javax.servlet.jsp:javax.servlet.jsp-api:2.3.1'
+    compile 'javax.servlet:jstl:1.2'
+    compile 'com.googlecode.htmlcompressor:htmlcompressor:1.5.2'
+    compile 'com.yahoo.platform.yui:yuicompressor:2.4.8'
+    compile 'org.eclipse.jetty:jetty-servlets:9.2.14.v20151106'
+}
+
+gretty {
+	servletContainer = 'jetty9'
+	contextPath = '/'
+	httpPort = 80
+  	//inplaceMode = 'hard'
+  	afterEvaluate {
+	    appStartDebug {
+	      	debugPort = 5005   
+	      	debugSuspend = true
+	    }
+  	}
+}
+
+//For Eclipse IDE only
+eclipse {
+
+  	wtp {
+    	component {
+      
+      		//define context path, default to project folder name
+			contextPath = '/'
+      
+    	}
+    
+    	facet {
+            facet name: 'jst.web', version: '3.1'
+            facet name: 'jst.java', version: '1.8'
+            facet name: 'wst.jsdt.web', version: '1.0'
+        }
+	}
+}

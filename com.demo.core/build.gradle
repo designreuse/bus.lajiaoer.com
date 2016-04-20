@@ -1,0 +1,4 @@
+apply plugin: 'eclipse'
+dependencies {
+	compile project(':com.demo.utils')
+}

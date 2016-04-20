@@ -1,0 +1,18 @@
+apply plugin: 'eclipse'
+//apply plugin: 'war'
+
+configurations { 
+	providedCompile 
+}
+
+sourceSets.main.compileClasspath += configurations.providedCompile
+sourceSets.test.compileClasspath += configurations.providedCompile
+sourceSets.test.runtimeClasspath += configurations.providedCompile
+
+dependencies {
+	compile project(':com.demo.utils'), project(':com.demo.service'), project(':com.demo.core'), project(':com.demo.captcha')
+	compile 'javax.servlet:javax.servlet-api:3.1.0'
+	compile 'org.glassfish.jersey.containers:jersey-container-servlet:2.22.2'
+    compile 'org.glassfish.jersey.media:jersey-media-json-jackson:2.22.2' 
+    compile 'com.github.cage:cage:1.0'
+}

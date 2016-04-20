@@ -1,0 +1,7 @@
+apply plugin: 'eclipse'
+dependencies {
+	compile project(':com.demo.model'), project(':com.demo.utils')
+	compile 'com.alibaba:druid:1.0.17'
+	compile 'mysql:mysql-connector-java:5.1.38'
+	compile 'commons-dbutils:commons-dbutils:1.6'
+}

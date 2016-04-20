@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<job-scheduling-data
+	xmlns="http://www.quartz-scheduler.org/xml/JobSchedulingData"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.quartz-scheduler.org/xml/JobSchedulingData 
+	http://www.quartz-scheduler.org/xml/job_scheduling_data_2_0.xsd"
+	version="2.0">
+<!-- 
+	<schedule>
+		<job>
+			<name>AJob</name>
+			<group>AGroup</group>
+			<description>Print a welcome message</description>
+			<job-class>com.demo.job.user.UserSignupEmailJob</job-class>
+		</job>
+
+		<trigger>
+			<cron>
+				<name>signupEmailTriggerName</name>
+				<job-name>AJob</job-name>
+				<job-group>AGroup</job-group>
+				<cron-expression>0/30 * * * * ?</cron-expression>
+			</cron>
+		</trigger>
+	</schedule>
+ -->
+	<schedule>
+		<job>
+			<name>CityJob</name>
+			<group>CityGroup</group>
+			<description>City to redis job</description>
+			<job-class>com.demo.job.city.CityToRedisJob</job-class>
+		</job>
+
+		<trigger>
+			<cron>
+				<name>CityTrigger</name>
+				<job-name>CityJob</job-name>
+				<job-group>CityGroup</job-group>
+				<cron-expression>0 0 4 * * ?</cron-expression>
+			</cron>
+		</trigger>
+	</schedule>
+</job-scheduling-data>
